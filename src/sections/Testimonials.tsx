@@ -54,7 +54,7 @@ export const TestimonialsSection = () => {
     <SectionHeader eyebrow="Staffing Simplified" title="Your Ultimate Destination for Expert Consultancy Solutions" description="At our consultancy, we provide expert guidance and tailored solutions to help you navigate challenges and achieve your goals."/>
     <div className="mt-12 lg:mt-20 flex  overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
     
-      <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:40s] hover:[animation-play-state:paused]">
+      <div className="flex gap-8 pr-8 flex-none transition duration-300 animate-move-left [animation-duration:40s] hover:[animation-play-state:paused]">
         {[...new Array(2)].fill(0).map((_, index) => (
           <Fragment key={index}>
            
@@ -62,11 +62,11 @@ export const TestimonialsSection = () => {
             <Card key={testimonials.name} className="max-w-xs md:max-w-md p-6 md:p-8 hover:-rotate-3 transition shadow-md hover:shadow-lg hover:shadow-purple-400/50 transition-shadow duration-300 transition duration-300">
              <div className="flex gap-4 items-center justify-center">
              <div className="flex flex-col items-center">
-             <div className=" text-center font-serif  text-3xl bg-gradient-to-r from-white/70  via-purple-400 to-yellow-200  bg-clip-text text-transparent ">{testimonials.name}</div>
+             <div className=" text-center font-serif xs:text-lg sm:text-lg text-3xl bg-gradient-to-r from-white/70  via-purple-400 to-yellow-200  bg-clip-text text-transparent ">{testimonials.name}</div>
              <div className="text-sm text-center text-white/40">{testimonials.position}</div>
              </div>
              </div>
-             <p className="mt-4 md:mt-6  text-center text-xl sm:text-sm md:text-xl ">{testimonials.text}</p>
+             <p className="mt-4 md:mt-6  text-center text-xl xs:text-sm md:text-xl ">{testimonials.text}</p>
              </Card>
    
              

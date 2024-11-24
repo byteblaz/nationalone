@@ -10,12 +10,112 @@ import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import grainImage from '@/assets/images/grain.jpg';
+import marketing from '@/assets/images/marketing.png';
+import intellectual from '@/assets/images/intellectual.png';
+import hiring from '@/assets/images/hiring.png';
+import outsourcing from '@/assets/images/outsourcing.png';
 import { SectionHeader } from "@/components/SectionHeader";
-const portfolioProjects = [
+const portfolioProjects = [{
+  company: "National Gulf Consultants",
+  year: "2014",
+  title: "Business Incorporation Consulting",
+  kl:"six",
+  results: [
+    { title: "Foriegn Ownership Company in Oman " },
+    { title: "Local Omani Owned Company" },
+    { title: "Free Zone Company" },
+    { title: "Mainland Company" },
+    { title: "Register Company Name or Trade Name in Oman" },
+    
+  ],
+  link: "./Service",
+  image: companyone,
+},
+{
+  company: "National Gulf Consultants",
+  year: "2014",
+  title: "Business Incorporation Consulting",
+  kl:"seven",
+  results: [
+    { title:"Commercial Registration Activities" },
+    { title: "Company Share Transfer Services in Oman" },
+    { title: "Limited Liability Company - LLC" },
+    { title: "Update Commercial Registration - CR" },
+    { title: "Sole Proprietor Company in Oman - SPC" },
+    
+  ],
+  link: "./Service",
+  image: companytwo,
+},
+{
+  company: "National Gulf Consultants",
+  year: "2014",
+  title: "Business Incorporation Consulting",
+  kl:"eight",
+  results: [
+    { title: "Joint Partnership" },
+    { title: "Limited Partnership" },
+    { title: "Business Setup in Oman" },
+    { title: "Company Formation in Oman" },
+    { title: "Company Registration in Oman" },
+   
+  ],
+  link: "./Service",
+  image: companythree,
+},
+{
+  company: "National Gulf Consultants",
+  year: "2014",
+  title: "Tax Services Consulting",
+  kl: "three",
+  results: [
+    { title: "Corporate tax Registration" },
+    { title: "Tax (VAT) Registration" },
+    { title: "VAT Health Check" },
+    { title: "VAT Compliance and Reporting" },
+    { title: "Oman Transfer Pricing" },
+    
+
+  ],
+  link: "./Service",
+  image: taxone,
+},
+{
+  company: "National Gulf Consultants",
+  year: "2014",
+  title: "Tax Services Consulting",
+  kl:"four",
+  results: [
+    { title: "VAT Filing Service" },
+    { title: "SME Finance and Tax Solution" },
+    { title: "Tax Residency Certificates" },
+    { title: "Economic Substance Regulations" },
+
+  ],
+  link: "./Service",
+  image: vatone,
+},
+{
+  company: "National Gulf Consultants",
+  year: "2014",
+  title: "Visa Services Consulting",
+  kl:"two",
+  results: [
+    { title: "Golden Visa in Oman" },
+    { title: "Investor Visa in Oman" },
+    { title: "Visit Visa Oman" },
+    { title: "Visa Services in Oman" },
+    { title: "5 Years Investor Visa in Oman" },
+    { title: "10 Years Investor Visa in Oman" },
+  ],
+  link: "./Service",
+  image: lightSaasLandingPage,
+},
+
   {
     company: "National Gulf Consultants",
     year: "2014",
-    title: "Pro Services",
+    title: "PRO Services Consulting",
     kl:"one",
     results: [
       { title: "PRO Services and Documents Clearing" },
@@ -25,61 +125,46 @@ const portfolioProjects = [
       { title: "Ministry of Labour Services" },
       
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
+    link: "./Service",
     image: darkSaasLandingPage,
   },
   {
     company: "National Gulf Consultants",
     year: "2014",
-    title: "Visa Services",
-    kl:"two",
+    title: "Marketing and Promotion Consulting",
+    kl:"nine",
     results: [
-      { title: "Golden Visa in Oman" },
-      { title: "Investor Visa in Oman" },
-      { title: "Visit Visa Oman" },
-      { title: "Visa Services in Oman" },
-      { title: "5 Years Investor Visa in Oman" },
-      { title: "10 Years Investor Visa in Oman" },
-    ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
-  },
-  {
-    company: "National Gulf Consultants",
-    year: "2014",
-    title: "Corporate Tax and VAT",
-    kl: "three",
-    results: [
-      { title: "Corporate tax Registration" },
-      { title: "Tax (VAT) Registration" },
-      { title: "VAT Health Check" },
-      { title: "VAT Compliance and Reporting" },
-      { title: "Oman Transfer Pricing" },
+      { title: "Strategic Marketing Planning" },
+      { title: "Brand Development and Positioning" },
+      { title: "Creative Campaign Development" },
+      { title: "Marketing In-line With Oman's Requirement" },
+      { title: "Market Research and Analysis" },
       
-
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: taxone,
+    link: "./Service",
+    image: marketing,
   },
   {
     company: "National Gulf Consultants",
     year: "2014",
-    title: "Corporate Tax and VAT",
-    kl:"four",
+    title: "Intellectual Property Registration Consulting",
+    kl:"ten",
     results: [
-      { title: "VAT Filing Service" },
-      { title: "SME Finance and Tax Solution" },
-      { title: "Tax Residency Certificates" },
-      { title: "Economic Substance Regulations" },
-
+      { title: "Trademark Registration" },
+      { title: "Copyright Registration" },
+      { title: "IP Management" },
+      { title: "Licensing and Franchising" },
+      { title: "Online Registration Process" },
+      
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: vatone,
+    link: "./Service",
+    image: intellectual,
   },
+  
   {
     company: "National Gulf Consultants",
     year: "2014",
-    title: "ISO Certificate",
+    title: "ISO Certification Consulting",
     kl:"five",
     results: [
       { title: "ISO 9001:2015 Quality Management System" },
@@ -89,64 +174,42 @@ const portfolioProjects = [
       { title: "ISO 20000-1:2011 Information Technology Service Management System" },
       { title: "ISO 45001:2018 Occupational Health And Safety Management System" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
+    link: "./Service",
     image: isoone,
   },
   {
     company: "National Gulf Consultants",
     year: "2014",
-    title: "Company Formation",
-    kl:"six",
+    title: "Hiring and Staffing Consulting",
+    kl:"eleven",
     results: [
-      { title: "Foriegn Ownership Company in Oman " },
-      { title: "Local Omani Owned Company" },
-      { title: "Free Zone Company" },
-      { title: "Mainland Company" },
-      { title: "Register Company Name or Trade Name in Oman" },
+      { title: "Talent Acquisition and Recruitment" },
+      { title: "Onboarding and Induction" },
+      { title: "Contract Staffing and Recruitment" },
+      { title: "Compliance and Regulatory Adherence" },
+      { title: "Multi-disciplinary Workforce" },
       
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: companyone,
+    link: "./Service",
+    image: hiring,
   },
   {
     company: "National Gulf Consultants",
     year: "2014",
-    title: "Company Formation",
-    kl:"seven",
+    title: "Outsourcing Workforce and Services Consulting",
+    kl:"twelwe",
     results: [
-      { title:"Commercial Registration Activities" },
-      { title: "Company Share Transfer Services in Oman" },
-      { title: "Limited Liability Company - LLC" },
-      { title: "Update Commercial Registration - CR" },
-      { title: "Sole Proprietor Company in Oman - SPC" },
+      { title: "Diverse Talent Pool" },
+      { title: "Focus on Core Competencies" },
+      { title: "Flexible Workforce Models" },
+      { title: "Task-Specific Engagement" },
+      { title: "Strategic Partnership" },
       
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: companytwo,
+    link: "./Service",
+    image: outsourcing,
   },
-  {
-    company: "National Gulf Consultants",
-    year: "2014",
-    title: "Company Formation",
-    kl:"eight",
-    results: [
-      { title: "Joint Partnership" },
-      { title: "Limited Partnership" },
-      { title: "Business Setup in Oman" },
-      { title: "Company Formation in Oman" },
-      { title: "Company Registration in Oman" },
-     
-    ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: companythree,
-  },
-  
-
-
-  
-  
 ];
-
 export const ProjectsSection = () => {
   return (
   <section className="pb-16 lg:py-24">
@@ -159,7 +222,7 @@ export const ProjectsSection = () => {
           
           <div
               key={project.kl}
-              className=" bg-white/5 backdrop-blur-3xl rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none sticky -top-10 lg:top-3 ">
+              className=" bg-white/5 backdrop-blur-3xl rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none sticky -top-10 lg:top-3 xs:-mx-2 ">
               <div className="absolute inset-0 -z-10 opacity-5" style={{
                 backgroundImage: `url(${grainImage.src})`,
               }}></div>
@@ -168,13 +231,13 @@ export const ProjectsSection = () => {
               <div className="lg:grid lg:grid-cols-2 lg:gap-16 ">
                 <div className="lg:pb-16">
                   {/* Company Info */}
-                  <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest md:text-sm lg:text-base sm:text-xs text-transparent bg-clip-text">
+                  <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest md:text-sm lg:text-base sm:text-xs text-transparent bg-clip-text xs:text-xxs">
                     <span>{project.company}</span>
                     <span>&bull;</span>
                     <span>{project.year}</span>
                   </div>
 
-                  <h3 className="font-serif text-2xl mt-2 md:mt-5 md:text-4xl">
+                  <h3 className="font-serif text-2xl mt-2 md:mt-5 md:text-2xl">
                     {project.title}
                   </h3>
                   <hr className="border-t-2 border-white/5 mt-4 md:mt-5" />
@@ -182,7 +245,7 @@ export const ProjectsSection = () => {
                   {/* Results List */}
                   <ul className="flex flex-col gap-4 mt-4 md:mt-5">
                     {project.results.map((result, resultIndex) => (
-                      <li key={resultIndex} className="flex gap-2 text-sm sm:text-xs md:text-base text-white/70">
+                      <li key={resultIndex} className="flex gap-2 text-sm sm:text-xs xs:text-xs md:text-base text-white/70">
                         <CheckCircleIcon className="w-5 h-5 text-green-400 md:w-6 md:h-6" />
                         <span>{result.title}</span>
                       </li>

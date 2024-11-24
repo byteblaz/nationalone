@@ -1,3 +1,4 @@
+"use client";
 import memojiImage from "@/assets/images/logong_optimized.png";
 import Image from "next/image";
 import ArrowDown from '@/assets/icons/arrow-down.svg';
@@ -5,6 +6,16 @@ import grainImage from '@/assets/images/grain.jpg';
 import StarIcon from '@/assets/icons/star.svg';
 import { HeroOrbit } from "@/components/HeroOrbit";
 import SparkleIcon from '@/assets/icons/sparkle.svg';
+const herobutton = [
+  {
+    company: "National Gulf Consultants",
+    year: "2014",
+    title: "Investor-Friendly Policies",
+    kl:"one",
+    description:"Oman encourages foreign investment with attractive incentives, including tax holidays, 100% foreign ownership in certain sectors, and streamlined licensing processes. Free zones like Duqm and Salalah offer additional benefits, including exemptions from customs duties and competitive leases, ensuring businesses find a supportive ecosystem tailored to their success. ",
+    link:"./Service",
+    linkone:"./ContactUs",
+  },]
 export const HeroSection = () => {
   return (
   <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
@@ -66,15 +77,19 @@ export const HeroSection = () => {
       we redefine the way you perceive HR solutions.
       </p>
       </div>
-      <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-        <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
+      {herobutton.map((project) => (
+      <div key={project.kl} className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
+        <a href={project.link} className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
           <span className="font-semibold">Services</span>
           <ArrowDown className="size-4"/>
-        </button>
-        <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
+        </a>
+        
+        <a href={project.linkone} className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
           <span className="font-semibold">Let&rsquo;s Connect</span>
-        </button>
+        </a>
+      
       </div>
+       ))}
        </div>
   </div>
   );

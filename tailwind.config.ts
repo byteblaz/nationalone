@@ -11,6 +11,8 @@ const config: Config = {
   ],
   theme: {
     screens: {
+      xs:"320px",
+      xxs:"360px",
       sm: "375px",
       md: "768px",
       lg: "1200px",
@@ -26,6 +28,10 @@ const config: Config = {
       fontFamily:{
         sans: 'var(--font-sans)',
         serif:'var(--font-serif)',
+      },
+      fontSize: {
+        'xxs': '0.625rem', // Custom size (10px)
+        'xx':'0.5rem',   // Custom size (48px)
       },
       animation: {
         'ping-large': "ping-large 1s ease-in-out infinite",

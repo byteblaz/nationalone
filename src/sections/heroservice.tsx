@@ -65,9 +65,9 @@ export const HeroService= () => {
           <span className="font-semibold">Services</span>
           <ArrowDown className="size-4"/>
         </button>
-        <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
+        <a href="./Service" className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
           <span className="font-semibold">Let&rsquo;s Connect</span>
-        </button>
+        </a>
       </div>
        </div>
   </div>

@@ -6,12 +6,14 @@ import { TestimonialsSection } from "@/sections/Testimonials";
 import { AboutSection } from "@/sections/About";
 import { ContactSection } from "@/sections/Contact";
 import { Footer } from "@/sections/Footer";
+import { OmanSection } from "@/sections/oman";
 export default function Home() {
   return (
     <div>
      <Header/>
      <HeroSection/>
      <ProjectsSection/>
+     <OmanSection/>
      <TapeSection/>
      <TestimonialsSection/>
      <AboutSection/>

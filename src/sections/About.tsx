@@ -109,7 +109,7 @@ export const AboutSection = () => {
       <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
       <Card className="h-[320px] md:col-span-2 lg:col-span-1">
         <CardHeader title="Our Mission" description="We create a new experience of Human Resource by reliable hiring, outsourcing and staffing solutions"/>
-        <div className="w-40 mx-auto -mt-9 md:mt-0">
+        <div className="w-40 mx-auto -mt-9 xs:mt-2 md:mt-0">
           <Image src={bookImage} alt="Book Cover"/>
           </div>
       </Card>
@@ -122,23 +122,21 @@ export const AboutSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-3 gap-8">
       <Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2">
       <CardHeader title="What We Provide" description="We provide expert help and customized solutions to help you meet challenges and reach your goals." className="px-6 py-6"/>
-        <div className="relative flex-1" ref={constraintRef}>
-    
-          {hobbies.map(hobby => (
-            <motion.div key={hobby.title} className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 absolute"
-            style={{
-              left: hobby.left,
-              top: hobby.top,
-            }}
-             drag
-             dragConstraints = {constraintRef}
-            >
-              <span className="font-medium text-gray-950">{hobby.title}</span>
-              <span>{hobby.emoji}</span>
-
-            </motion.div>
-          ))}
-        </div>
+      <div className="relative grid xs:gap-7 sm:gap-4 p-4 grid-cols-2 xs:grid-cols-3 md:grid-cols-4 lg:grid-cols-4"  ref={constraintRef} >
+                {hobbies.map((hobby) => (
+                  <motion.div
+                    key={hobby.title}
+                    className="flex items-center justify-center  gap-1 px-2 py-1 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full min-w-[120px] xs:-ml-5 sm:min-w-[125px] xs:min-w-[125px] xs:text-xxs sm:text-xxs md:text-xxs xs:-mt-4 sm:m-0"
+                    drag
+                    dragConstraints={constraintRef}
+                  >
+                    <span className="font-medium text-gray-950 whitespace-nowrap overflow-hidden text-ellipsis">
+                      {hobby.title}
+                    </span>
+                    <span className="ml-1">{hobby.emoji}</span>
+                  </motion.div>
+                ))}
+              </div>
       </Card>
       <Card className="h-[320px] p-0 relative md:col-span-2 lg:col-span-1">
       <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1828.5572896873718!2d58.58283!3d23.564328!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1730544950299!5m2!1sen!2sin" width="600" height="450" loading="lazy"></iframe>
