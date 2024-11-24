@@ -39,15 +39,15 @@ export const ContactForm = () => {
     
     <div className="flex flex-col items-center justify-center min-h-screen p-4 sm:p-8 lg:p-24">
       <SectionHeader eyebrow="Just A Message Away" title="We&rsquo;d Love to Hear from You"description="Have a question, need assistance, or want to discuss our services? Fill out the form below, and our team will get back to you as soon as possible."/>
-      <Card className="w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-3xl p-6 sm:p-10 lg:p-16 shadow-lg hover:shadow-2xl hover:bg-slate-500/30 hover:shadow-yellow-400/50 rounded-xl transition-shadow duration-300 bg-white/10 mt-8">
+      <Card className="w-full max-w-md sm:w-[90vw] md:max-w-2xl lg:max-w-3xl p-6 sm:p-10 lg:p-16 shadow-lg hover:shadow-md hover:shadow-yellow-400/50 rounded-xl transition-shadow duration-300 bg-white/10 mt-8">
         <form onSubmit={sendMail} className="space-y-6">
           <div className="flex flex-col items-start gap-4">
             <h1 className="font-serif text-2xl sm:text-3xl lg:text-4xl text-white">Contact Us</h1>
           </div>
-          <hr className="border-t-2 border-gray-200 mt-4" />
+          <hr className="border-t-2 border-gray-200 mt-2" />
           
           <div className="relative flex flex-col space-y-2">
-            <label htmlFor="title" className="text-md sm:text-lg font-medium text-white">
+            <label htmlFor="title" className="xs:text-md md:text-lg font-medium text-white">
               Subject
             </label>
             <input
@@ -58,12 +58,12 @@ export const ContactForm = () => {
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
               placeholder="Enter the subject"
-              className="w-full p-3 sm:p-4 rounded-lg border border-gray-300 bg-gray-50 text-gray-900 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500"
+              className="w-full p-3 md:p-4 rounded-lg border border-gray-300 bg-gray-50 text-gray-900 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500"
             />
           </div>
 
           <div className="relative flex flex-col space-y-2">
-            <label htmlFor="title" className="text-md sm:text-lg font-medium text-white">
+            <label htmlFor="title" className="xs:text-md md:text-lg font-medium text-white">
               Email
             </label>
             <input
@@ -74,12 +74,12 @@ export const ContactForm = () => {
               value={mail}
               onChange={(e) => setMail(e.target.value)}
               placeholder="Enter your email"
-              className="w-full p-3 sm:p-4 rounded-lg border border-gray-300 bg-gray-50 text-gray-900 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500"
+              className="w-full p-3 md:p-4 rounded-lg border border-gray-300 bg-gray-50 text-gray-900 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500"
             />
           </div>
           
           <div className="relative flex flex-col space-y-2">
-            <label htmlFor="description" className="text-md sm:text-lg font-medium text-white">
+            <label htmlFor="description" className="xs:text-md md:text-lg font-medium text-white">
               Message
             </label>
             <textarea
@@ -90,7 +90,7 @@ export const ContactForm = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               placeholder="Enter your message"
-              className="w-full p-3 sm:p-4 rounded-lg border border-gray-300 bg-gray-50 text-gray-900 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500"
+              className="w-full p-3 md:p-4 rounded-lg border border-gray-300 bg-gray-50 text-gray-900 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500"
             />
           </div>
           

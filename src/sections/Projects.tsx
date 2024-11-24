@@ -226,7 +226,7 @@ export const ProjectsSection = () => {
               <div className="absolute inset-0 -z-10 opacity-5" style={{
                 backgroundImage: `url(${grainImage.src})`,
               }}></div>
-               <div className=" absolute inset-0  rounded-lg blur -z-10 opacity-10" style={{ backgroundImage: 'linear-gradient(to right, #ff7e5f, #feb47b)' 
+               <div className=" absolute inset-0  rounded-lg blur -z-10 opacity-5" style={{ backgroundImage: 'linear-gradient(to right, #ff7e5f, #feb47b)' 
                }}></div>
               <div className="lg:grid lg:grid-cols-2 lg:gap-16 ">
                 <div className="lg:pb-16">
@@ -253,7 +253,7 @@ export const ProjectsSection = () => {
                   </ul>
 
                   {/* Button */}
-                  <a href={project.link} className="inline-block mt-8">
+                  <a href="./Service" className="inline-block mt-8">
                     <button className="bg-white/10 backdrop-blur text-gray-950 h-10 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
                       <span className="text-white/60">Services</span>
                       <ArrowUpRightIcon className="w-4 h-4 text-green-300" />

@@ -21,15 +21,6 @@ const OmanC = [
       year: "2014",
       title: "Investor-Friendly Policies",
       kl:"one",
-      results: [
-        { title: "PRO Services and Documents Clearing" },
-        { title: "Ministry of Commerce and Industry Support" },
-        { title: "Chamber of Commerce and Industry Assistance" },
-        { title: "Municipality Licensing Facilitation" },
-        { title: "Ministry of Labour Services" },
-        
-      ],
-      link: "https://youtu.be/4k7IdSLxh6w",
       description:"Oman encourages foreign investment with attractive incentives, including tax holidays, 100% foreign ownership in certain sectors, and streamlined licensing processes. Free zones like Duqm and Salalah offer additional benefits, including exemptions from customs duties and competitive leases, ensuring businesses find a supportive ecosystem tailored to their success. ",
       image: omanone,
     },
@@ -121,14 +112,14 @@ export const OmanSection = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["3%", "-84%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["3%", "-85%"]);
   return (
     <section className="pb-16 lg:py-24">
       <div className="container">
-        <SectionHeader eyebrow="Oman: Your Gateway to Success" title="Why Choose Oman?"description="With its strategic location, investor-friendly policies, and thriving economy, Oman is the ideal destination for growth. Enjoy world-class infrastructure, unmatched stability, and a high quality of life in a nation committed to innovation and opportunity"/>
+        <SectionHeader eyebrow="Oman: Your Gateway to Success" title="Why Choose Oman?" description= "With its strategic location, investor-friendly policies, and thriving economy, Oman is the ideal destination for growth. Enjoy world-class infrastructure, unmatched stability, and a high quality of life in a nation committed to innovation and opportunity"/>
         <div ref={targetRef} className="relative h-[300vh]">
-          <div className=" sticky top-0 mt-10 md:mt-20 flex transition duration-300  h-screen items-center overflow-hidden">
-          <motion.div style={{ x }} className="flex gap-8 transition duration-800 ">
+          <div className=" sticky top-0 mt-10 md:mt-20 flex h-screen items-center overflow-hidden">
+          <motion.div style={{ x }} className="flex gap-8 ">
             {OmanC.map((project) => (
             <Card key={project.kl} className="max-w-3xl sm:w-[80vw] xs:w-[80vw] relative">
                 <div className="flex justify-center items-center">

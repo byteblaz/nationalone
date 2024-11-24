@@ -52,7 +52,7 @@ export const HeroContact= () => {
       <div className="relative size-72 mt-20">
       <Image src ={memojiImage}  className=" absolute -top-20"  alt="Logo: national gulf consultants"/>
       </div>
-    
+      
       </div>
       <div className="max-w-lg mx-auto">
       <h1 className="font-serif text-3xl md:text-5xl text-center mt-5 tracking-wide bg-gradient-to-r from-yellow-300  via-sky-400 to-yellow-200  bg-clip-text text-transparent">Let&rsquo;s Connect and Collaborate</h1>
@@ -60,13 +60,17 @@ export const HeroContact= () => {
       Get in touch with us to discuss your needs and explore how our recruitment expertise can make a difference for you. We’re here to answer your questions and provide the support you need.</p>
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-        <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
-          <span className="font-semibold">Contact Form</span>
-          <ArrowDown className="size-4"/>
-        </button>
-        <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
-          <span className="font-semibold">Let&rsquo;s Connect</span>
-        </button>
+      <a href="./ContactUs" className="inline-block">
+                    <button className="bg-white/10 backdrop-blur text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
+                      <span className="text-white">Contact Us</span>
+                      <ArrowDown className="size-4 text-white"/>
+                    </button>
+                  </a>
+                  <a href="./" className="inline-block">
+                    <button className="bg-white/10 backdrop-blur text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
+                      <span className="text-white">Home</span>
+                    </button>
+                  </a>
       </div>
        </div>
   </div>

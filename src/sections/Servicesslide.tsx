@@ -25,7 +25,7 @@ const portfolioProjects = [
     title: "Services",
     kl:"one",
     titleone:"Business Incorporation Consulting",
-    aboutone:"At National Gulf Consultants, we specialize in guiding businesses through seamless incorporation processes in Oman. Whether you’re establishing a foreign-owned entity, a local Omani-owned company, or a free zone business, we ensure efficient compliance with legal requirements. From registering trade names and updating commercial registrations (CR) to setting up sole proprietor companies (SPC) or limited liability companies (LLC), our experts handle it all. We also provide comprehensive solutions for joint and limited partnerships, company share transfers, and commercial registration updates. With our deep expertise, businesses can navigate Oman’s regulatory landscape effortlessly, ensuring swift and successful market entry.",
+    aboutone:`At National Gulf Consultants, we specialize in guiding businesses through seamless incorporation processes in Oman. Whether you’re establishing a foreign-owned entity, a local Omani-owned company, or a free zone business, we ensure efficient compliance with legal requirements. From registering trade names and updating commercial registrations (CR) to setting up sole proprietor companies (SPC) or limited liability companies (LLC), our experts handle it all. We also provide comprehensive solutions for joint and limited partnerships, company share transfers, and commercial registration updates. With our deep expertise, businesses can navigate Oman’s regulatory landscape effortlessly, ensuring swift and successful market entry.`,
     titletwo:"Tax Services Consulting",
     abouttwo:"We provide expert tax consulting services to help businesses in Oman remain compliant and optimize their financial strategies. Our offerings include corporate tax and VAT registration, VAT compliance, reporting, and comprehensive VAT health checks to ensure accuracy. We assist with Oman-specific transfer pricing, VAT filing services, and economic substance regulations to meet local and international standards. For SMEs, we deliver tailored finance and tax solutions, ensuring cost-effective compliance. Additionally, we help businesses secure tax residency certificates, enabling them to benefit from Oman’s tax treaties. With our proactive approach, your business stays compliant, efficient, and well-prepared for any regulatory changes.",
     titlethree:"Visa Services Consulting",
@@ -43,7 +43,7 @@ const portfolioProjects = [
     titlenine:"Outsourcing Workforce and Services Consulting",
     aboutnine:"Workforce is composed of equally talented pool of professionals and workers from diverse backgrounds and experience. National Gulf executes the practice of engaging external professionals and workers to handle specific task and functions for the smooth work execution. Outsourcing Workforce and Services allow companies to focus on their core competencies by delegating non-core activities to external partners. It can be full time/temporary/project based/region based, etc.",
     
-    link: "./Service",
+    link: "./",
     image: AboutUs,
     imageone:companythree,
     imagetwo:taxone,
@@ -80,7 +80,7 @@ export const ServiSection = () => {
           {portfolioProjects.map((project) => (
             <div
               key={project.kl}
-              className="bg-white/10 backdrop-blur rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none lg:top-3 hover:shadow-2xl hover:bg-slate-800 hover:shadow-cyan-400 transition-shadow duration-300 max-h-min "
+              className="bg-white/10 backdrop-blur rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none lg:top-3 hover:shadow-md hover:shadow-cyan-400 transition-shadow duration-300"
             >
               <div
                 className="absolute inset-0 -z-10 opacity-5"
@@ -282,10 +282,10 @@ export const ServiSection = () => {
                
 
                   {/* Button */}
-                  <a href={project.link} className="mt-8">
-                    <div className="relative flex items-center justify-center mt-8">
+                  <a href={project.link} className="mt-8 mb-3">
+                    <div className="relative flex items-center justify-center mt-8 mb-11">
                       <button className="bg-white/10 backdrop-blur text-gray-950 h-10 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
-                        <span className="text-white/60">Services</span>
+                        <span className="text-white/60">Go Home</span>
                         <ArrowUpRightIcon className="w-4 h-4 text-green-300" />
                       </button>
                     </div>
