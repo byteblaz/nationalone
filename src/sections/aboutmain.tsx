@@ -78,12 +78,12 @@ export const AboutMain = () => {
                 
 
                   {/* Button */}
-                  <a href={project.link} className=" mt-8">
-                    <div className="relative lg:mt-20 xs:mt-7">
-                    <button className="bg-white/10 backdrop-blur text-gray-950 h-10 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 lg:absolute lg:left-1/2 lg:top-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2">
-                      <span className="text-white/60">Services</span>
-                      <ArrowUpRightIcon className="w-4 h-4 text-green-300" />
-                    </button>
+                  <a href={project.link} className="mt-8 mb-3">
+                    <div className="relative flex items-center justify-center mt-8 mb-11">
+                      <button className="bg-white/10 backdrop-blur text-gray-950 h-10 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
+                        <span className="text-white/60">Services</span>
+                        <ArrowUpRightIcon className="w-4 h-4 text-green-300" />
+                      </button>
                     </div>
                   </a>
                 </div>

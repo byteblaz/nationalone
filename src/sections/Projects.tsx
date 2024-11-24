@@ -13,7 +13,7 @@ import grainImage from '@/assets/images/grain.jpg';
 import marketing from '@/assets/images/marketing.png';
 import intellectual from '@/assets/images/intellectual.png';
 import hiring from '@/assets/images/hiring.png';
-import outsourcing from '@/assets/images/outsourcing.png';
+import outsourcing from '@/assets/images/outsourcingone.png';
 import { SectionHeader } from "@/components/SectionHeader";
 const portfolioProjects = [{
   company: "National Gulf Consultants",
@@ -226,7 +226,7 @@ export const ProjectsSection = () => {
               <div className="absolute inset-0 -z-10 opacity-5" style={{
                 backgroundImage: `url(${grainImage.src})`,
               }}></div>
-               <div className=" absolute inset-0  rounded-lg blur -z-10 opacity-5" style={{ backgroundImage: 'linear-gradient(to right, #ff7e5f, #feb47b)' 
+               <div className="absolute inset-0  rounded-lg blur -z-10 opacity-5" style={{ backgroundImage: 'linear-gradient(to right, #ff7e5f, #feb47b)' 
                }}></div>
               <div className="lg:grid lg:grid-cols-2 lg:gap-16 ">
                 <div className="lg:pb-16">
