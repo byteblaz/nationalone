@@ -37,7 +37,7 @@ const OmanC = [
         { title: "Ministry of Labour Services" },
         
       ],
-      link: "https://youtu.be/4k7IdSLxh6w",
+      
       description:"Oman is equipped with modern infrastructure, including state-of-the-art airports, expansive highways, and deep-water ports. These facilities facilitate seamless trade and travel, enabling businesses to thrive. Additionally, advanced telecommunications and industrial hubs further support efficient operations, providing the tools necessary for enterprises to scale effectively.",
       image:omansix,
     },{
@@ -53,7 +53,7 @@ const OmanC = [
         { title: "Ministry of Labour Services" },
         
       ],
-      link: "https://youtu.be/4k7IdSLxh6w",
+      
       description:"Renowned for its peace and security, Oman enjoys a stable political environment under visionary leadership. This stability fosters confidence among investors and professionals, providing a safe and predictable setting for business operations. Oman's foreign policies and internal harmony make it a standout choice in the region for sustainable development.",
       image: omanthree,
     },{
@@ -69,7 +69,7 @@ const OmanC = [
         { title: "Ministry of Labour Services" },
         
       ],
-      link: "https://youtu.be/4k7IdSLxh6w",
+      
       description:"Oman Vision 2040 outlines ambitious goals for economic diversification, technological innovation, and environmental sustainability. Investments in renewable energy, smart cities, and sustainable industries reflect the country's commitment to building a future-ready economy, offering businesses and investors long-term growth opportunities aligned with global trends.",
       image: omanfive,
     },{
@@ -85,7 +85,7 @@ const OmanC = [
         { title: "Ministry of Labour Services" },
         
       ],
-      link: "https://youtu.be/4k7IdSLxh6w",
+     
       description:"Oman offers an exceptional standard of living, characterized by safety, excellent healthcare, and top-tier education options. The country’s natural beauty, from stunning beaches to majestic mountains, enhances its appeal for expatriates. With a family-friendly environment and a focus on well-being, Oman is an ideal destination for professionals seeking work-life balance.",
       image: omannine,
     },{
@@ -134,7 +134,7 @@ export const OmanSection = () => {
               <p className="mb-3 font-sans text-white sm:text-sm md:text-base xs:text-xs">{project.description}</p>
               <div className="flex justify-center items-center" >
               <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-white/5 backdrop-blur rounded-lg hover:bg-blue-800">
-                   Scroll Down For More
+                   Scroll For More
              <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
