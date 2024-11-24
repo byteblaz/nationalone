@@ -1,6 +1,5 @@
 import { Footer } from "@/sections/Footer";
 import { Header } from "@/sections/Header";
-import { HeroSection } from "@/sections/heroabout";
 import { HeroService } from "@/sections/heroservice";
 import { ServiSection } from "@/sections/Servicesslide";
 
