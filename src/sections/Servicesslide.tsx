@@ -23,9 +23,10 @@ const portfolioProjects = [
     company: "National Gulf Consultants",
     year: "2014",
     title: "Services",
+    aboutmain:"At National Gulf Consultants, we provide comprehensive solutions to empower businesses in Oman across various sectors. Our expertise spans business incorporation, visa processing, PRO services, marketing strategies, ISO certifications, and tax consulting. With a commitment to excellence, we tailor our services to meet your unique requirements, ensuring compliance, efficiency, and sustainable growth. Whether you're starting a new venture, enhancing operations, or meeting regulatory standards, our experienced team is here to guide you every step of the way. Partner with us to unlock opportunities, streamline processes, and achieve your business goals with confidence and ease.",
     kl:"one",
     titleone:"Business Incorporation Consulting",
-    aboutone:`At National Gulf Consultants, we specialize in guiding businesses through seamless incorporation processes in Oman. Whether you’re establishing a foreign-owned entity, a local Omani-owned company, or a free zone business, we ensure efficient compliance with legal requirements. From registering trade names and updating commercial registrations (CR) to setting up sole proprietor companies (SPC) or limited liability companies (LLC), our experts handle it all. We also provide comprehensive solutions for joint and limited partnerships, company share transfers, and commercial registration updates. With our deep expertise, businesses can navigate Oman’s regulatory landscape effortlessly, ensuring swift and successful market entry.`,
+    aboutone:`We specialize in guiding businesses through seamless incorporation processes in Oman. Whether you’re establishing a foreign-owned entity, a local Omani-owned company, or a free zone business, we ensure efficient compliance with legal requirements. From registering trade names and updating commercial registrations (CR) to setting up sole proprietor companies (SPC) or limited liability companies (LLC), our experts handle it all. We also provide comprehensive solutions for joint and limited partnerships, company share transfers, and commercial registration updates. With our deep expertise, businesses can navigate Oman’s regulatory landscape effortlessly, ensuring swift and successful market entry.`,
     titletwo:"Tax Services Consulting",
     abouttwo:"We provide expert tax consulting services to help businesses in Oman remain compliant and optimize their financial strategies. Our offerings include corporate tax and VAT registration, VAT compliance, reporting, and comprehensive VAT health checks to ensure accuracy. We assist with Oman-specific transfer pricing, VAT filing services, and economic substance regulations to meet local and international standards. For SMEs, we deliver tailored finance and tax solutions, ensuring cost-effective compliance. Additionally, we help businesses secure tax residency certificates, enabling them to benefit from Oman’s tax treaties. With our proactive approach, your business stays compliant, efficient, and well-prepared for any regulatory changes.",
     titlethree:"Visa Services Consulting",
@@ -80,7 +81,7 @@ export const ServiSection = () => {
           {portfolioProjects.map((project) => (
             <div
               key={project.kl}
-              className="bg-white/10 backdrop-blur rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none lg:top-3 hover:shadow-md hover:shadow-cyan-400 transition-shadow duration-300"
+              className="bg-white/10 backdrop-blur rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none lg:top-3 hover:shadow-md md:hover:shadow-cyan-400 transition-shadow duration-300 "
             >
               <div
                 className="absolute inset-0 -z-10 opacity-5"
@@ -99,12 +100,15 @@ export const ServiSection = () => {
                     {project.title}
                   </h3>
 
-                  <hr className="border-t-2 border-white/5 mt-4 md:mt-5" />
+                  <hr className="border-t-2 border-white/5 mt-2 md:mt-2" />
+                  <h3 className="font-sans md:text-lg xs:text-sm mt-4 mb-4 text-left">
+                      {project.aboutmain}
+                    </h3>
                   <div className="relative flex flex-col">
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titleone}
                     </h3>
-                    
+                    <hr className="border-t-2 border-white/5 mt-4 md:mt-5" />
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.aboutone}
                     </h3>
