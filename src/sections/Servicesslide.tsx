@@ -73,15 +73,15 @@ export const ServiSection = () => {
     <section className="pb-16 lg:py-24">
       <div className="container">
         <SectionHeader
-          eyebrow="Our Story, Your Success"
-          title="Built on Trust, Focused on Results"
-          description="Learn more about our values, our vision, and what makes us a reliable partner on your journey to success."
+          eyebrow="Our Services"
+          title="What We Offer to Empower Your Growth"
+          description="Our team is here to provide top-notch solutions tailored to your needs. Browse through each service to see how we can bring value to your business."
         />
         <div className="mt-10 md:mt-20 flex flex-col transition duration-300">
           {portfolioProjects.map((project) => (
             <div
               key={project.kl}
-              className="bg-white/10 backdrop-blur rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none lg:top-3 hover:shadow-md md:hover:shadow-cyan-400 transition-shadow duration-300 "
+              className="bg-white/10 backdrop-blur rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none lg:top-3 hover:shadow-md md:hover:shadow-cyan-400 transition-shadow duration-300"
             >
               <div
                 className="absolute inset-0 -z-10 opacity-5"

@@ -112,7 +112,7 @@ export const OmanSection = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["3%", "-85%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["1.6%", "-85%"]);
   return (
     <section className="pb-16 lg:py-24">
       <div className="container">
