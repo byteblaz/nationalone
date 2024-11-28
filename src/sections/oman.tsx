@@ -122,12 +122,8 @@ export const OmanSection = () => {
           <div className=" sticky top-0 mt-10 md:mt-20 flex h-screen items-center overflow-hidden">
           <motion.div style={{ x }} className="flex gap-8 ">
             {OmanC.map((project) => (
-            <Card key={project.kl} className="max-w-3xl sm:w-[80vw] xs:w-[80vw] relative backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10border border-opacity-20 border-[#ffffff]">
-                 <div className="" style={{
-                backgroundImage: `url(${blurbg.src})`,
-              }}
-              
-              ></div>
+            <Card key={project.kl} className="max-w-3xl sm:w-[80vw] xs:w-[80vw] relative backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_34px_6px_rgba(233,187,236,0.3)_inset] bg-[#ffffff]">
+                
                 <div className="flex justify-center items-center">
                 <a href="#">
                  <Image className="rounded-lg object-contain" src={project.image} alt="" layout="intrinsic" />
