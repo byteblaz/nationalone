@@ -63,7 +63,7 @@ export const TestimonialsSection = () => {
              <div className="flex gap-4 items-center justify-center">
              <div className="flex flex-col items-center">
              <div className=" text-center font-serif xs:text-lg sm:text-lg lg:text-2xl ">{testimonials.name}</div>
-             <div className="text-sm text-center">{testimonials.position}</div>
+             <div className="text-xs text-slate-700 text-center">{testimonials.position}</div>
              </div>
              </div>
              <p className="mt-4 md:mt-6  text-center xs:text-sm md:text-lg ">{testimonials.text}</p>

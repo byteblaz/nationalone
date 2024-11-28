@@ -113,13 +113,13 @@ export const OmanSection = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["1.4%", "-85%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["1.2%", "-85%"]);
   return (
     <section className="pb-16 lg:py-24">
       <div className="container">
         <SectionHeader eyebrow="Oman: Your Gateway to Success" title="Why Choose Oman?" description= "With its strategic location, investor-friendly policies, and thriving economy, Oman is the ideal destination for growth. Enjoy world-class infrastructure, unmatched stability, and a high quality of life in a nation committed to innovation and opportunity"/>
         <div ref={targetRef} className="relative h-[300vh]">
-          <div className=" sticky top-0 mt-10 md:mt-20 flex h-screen items-center overflow-hidden">
+          <div className=" sticky top-0 xs:mt-2 sm:mt-0 md:mt-10 flex h-screen items-center overflow-hidden">
           <motion.div style={{ x }} className="flex gap-8 ">
             {OmanC.map((project) => (
             <Card key={project.kl} className="max-w-3xl sm:w-[80vw] xs:w-[80vw] relative backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_34px_6px_rgba(233,187,236,0.3)_inset] bg-[#ffffff]">
