@@ -107,20 +107,20 @@ export const AboutSection = () => {
     <SectionHeader eyebrow="Diverse Recruitment Expertise" title="We Have Extensive Recruitment Experience Across Various Industries" description="Explore the various fields we offer to find the right fit for you."/>
     <div className="mt-20 flex flex-col gap-8">
       <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
-      <Card className="h-[320px] md:col-span-2 lg:col-span-1 backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_39px_10px_rgba(131,236,204,0.3)_inset] bg-[#ffffff]">
+      <Card className="h-[320px] md:col-span-2 lg:col-span-1 backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_31px_6px_rgba(159,244,218,0.3)_inset] bg-[#ffffff]">
         <CardHeader title="Our Mission" description="We create a new experience of Human Resource by reliable hiring, outsourcing and staffing solutions"/>
         <div className="w-40 mx-auto -mt-9 xs:mt-2 md:mt-0">
           <Image src={bookImage} alt="Book Cover"/>
           </div>
       </Card>
-      <Card className="h-[320px]  md:col-span-3 lg:col-span-2 bg-gradient-to-br from-slate-50 to-green-200 backdrop-blur">
+      <Card className="h-[320px]  md:col-span-3 lg:col-span-2 backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_31px_6px_rgba(159,244,218,0.3)_inset] bg-[#ffffff]">
       <CardHeader title="Our Recruitment Fields" description="Our experience in recruiting extends to a wide range of fields" className=""/>
       <Toolboxitems items={toolboxItems} className="" itemsWrapperClassName="animate-move-left [animation-duration:30s]" />
       <Toolboxitems items={toolboxItems} className="mt-6"itemsWrapperClassName="animate-move-right [animation-duration:15s]"/>
       </Card>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-3 gap-8">
-      <Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2 bg-gradient-to-br from-slate-50 to-green-200 backdrop-blur">
+      <Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2 backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_31px_6px_rgba(159,244,218,0.3)_inset] bg-[#ffffff]">
       <CardHeader title="What We Provide" description="We provide expert help and customized solutions to help you meet challenges and reach your goals." className="px-6 py-6"/>
       <div className="relative grid xs:gap-7 sm:gap-4 p-4 grid-cols-2 xs:grid-cols-3 md:grid-cols-4 lg:grid-cols-4"  ref={constraintRef} >
                 {hobbies.map((hobby) => (
