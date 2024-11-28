@@ -107,7 +107,7 @@ export const AboutSection = () => {
     <SectionHeader eyebrow="Diverse Recruitment Expertise" title="We Have Extensive Recruitment Experience Across Various Industries" description="Explore the various fields we offer to find the right fit for you."/>
     <div className="mt-20 flex flex-col gap-8">
       <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
-      <Card className="h-[320px] md:col-span-2 lg:col-span-1 bg-gradient-to-br from-slate-50 to-green-200 backdrop-blur">
+      <Card className="h-[320px] md:col-span-2 lg:col-span-1 backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_39px_10px_rgba(131,236,204,0.3)_inset] bg-[#ffffff]">
         <CardHeader title="Our Mission" description="We create a new experience of Human Resource by reliable hiring, outsourcing and staffing solutions"/>
         <div className="w-40 mx-auto -mt-9 xs:mt-2 md:mt-0">
           <Image src={bookImage} alt="Book Cover"/>

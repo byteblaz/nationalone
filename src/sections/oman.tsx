@@ -11,6 +11,7 @@ import omaneight from "@/assets/images/omaneight.png";
 import omannine from "@/assets/images/omannine.png";
 import omanthirteen from "@/assets/images/omanthirteen.png";
 import omaneleven from "@/assets/images/oman11.png";
+import blurbg from "@/assets/icons/blurbg.svg";
 import { Card } from "@/components/card";
 import Image from "next/image";
 import { motion, useTransform, useScroll } from "framer-motion";
@@ -121,7 +122,12 @@ export const OmanSection = () => {
           <div className=" sticky top-0 mt-10 md:mt-20 flex h-screen items-center overflow-hidden">
           <motion.div style={{ x }} className="flex gap-8 ">
             {OmanC.map((project) => (
-            <Card key={project.kl} className="max-w-3xl sm:w-[80vw] xs:w-[80vw] relative bg-gradient-to-br from-slate-50 to-green-200 backdrop-blur">
+            <Card key={project.kl} className="max-w-3xl sm:w-[80vw] xs:w-[80vw] relative backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10border border-opacity-20 border-[#ffffff]">
+                 <div className="" style={{
+                backgroundImage: `url(${blurbg.src})`,
+              }}
+              
+              ></div>
                 <div className="flex justify-center items-center">
                 <a href="#">
                  <Image className="rounded-lg object-contain" src={project.image} alt="" layout="intrinsic" />
