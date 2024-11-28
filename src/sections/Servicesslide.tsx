@@ -81,7 +81,7 @@ export const ServiSection = () => {
           {portfolioProjects.map((project) => (
             <div
               key={project.kl}
-              className="bg-white/10 backdrop-blur rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none lg:top-3 hover:shadow-md md:hover:shadow-cyan-400 transition-shadow duration-300"
+              className="bg-white/10 backdrop-blur-xl rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none lg:top-3 hover:shadow-md md:hover:shadow-cyan-400 transition-shadow duration-300"
             >
               <div
                 className="absolute inset-0 -z-10 opacity-5"

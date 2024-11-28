@@ -59,14 +59,14 @@ export const TestimonialsSection = () => {
           <Fragment key={index}>
            
           {testimonials.map(testimonials =>(
-            <Card key={testimonials.name} className="max-w-xs md:max-w-md p-6 md:p-8 hover:-rotate-3 transition shadow-md hover:shadow-lg hover:shadow-purple-400/50 transition-shadow duration-300 transition duration-300">
+            <Card key={testimonials.name} className="max-w-xs md:max-w-md p-6 md:p-8 hover:-rotate-3 transition shadow-md hover:shadow-lg hover:shadow-purple-400/50 transition-shadow duration-300 transition duration-300 bg-gradient-to-br from-slate-50 to-green-200">
              <div className="flex gap-4 items-center justify-center">
              <div className="flex flex-col items-center">
-             <div className=" text-center font-serif xs:text-lg sm:text-lg text-3xl bg-gradient-to-r from-white/70  via-purple-400 to-yellow-200  bg-clip-text text-transparent ">{testimonials.name}</div>
-             <div className="text-sm text-center text-white/40">{testimonials.position}</div>
+             <div className=" text-center font-serif xs:text-lg sm:text-lg lg:text-2xl ">{testimonials.name}</div>
+             <div className="text-sm text-center">{testimonials.position}</div>
              </div>
              </div>
-             <p className="mt-4 md:mt-6  text-center text-xl xs:text-sm md:text-xl ">{testimonials.text}</p>
+             <p className="mt-4 md:mt-6  text-center xs:text-sm md:text-lg ">{testimonials.text}</p>
              </Card>
    
              

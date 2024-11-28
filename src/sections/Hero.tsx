@@ -10,7 +10,7 @@ import SparkleIcon from '@/assets/icons/sparkle.svg';
 export const HeroSection = () => {
   return (
   <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
-    <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
+    <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
     <div className="absolute inset-0 -z-30 opacity-5" style={{
       backgroundImage:`url(${grainImage.src})`
     }}></div>
@@ -56,12 +56,12 @@ export const HeroSection = () => {
         <div className="bg-green-500 size-2.5 rounded-full relative">
           <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
         </div>
-        <div className="text-sm font-medium">Delivering Quality Manpower</div>
+        <div className="text-sm font-medium text-white">Delivering Quality Manpower</div>
       </div>
       </div>
       <div className="max-w-lg mx-auto">
       <h1 className="font-serif text-3xl md:text-5xl text-center mt-5 tracking-wide">Where Dreams Meet Expectations</h1>
-      <p className="mt-4 text-center text-white/60 md:text-lg">
+      <p className="mt-4 text-center md:text-lg">
       We elevate your expectations to reality through expert 
       Consulting services. 
       With a commitment to excellence and quality, 
@@ -71,15 +71,15 @@ export const HeroSection = () => {
       
       <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
       <a href="./Service" className="inline-block">
-                    <button className="bg-white/10 backdrop-blur text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
-                      <span className="text-white">Services</span>
-                      <ArrowDown className="size-4 text-white"/>
+                    <button className="bg-white/10 backdrop-blur border border-white/25 text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
+                      <span>Services</span>
+                      <ArrowDown className="size-4 "/>
                     </button>
                   </a>
         
         <a href="./ContactUs" className="inline-block">
-                    <button className="bg-white/10 backdrop-blur text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
-                      <span className="text-white">Let&rsquo;s Connect</span>
+                    <button className=" bg-white/25 backdrop-blur-3xl border border-white/25 text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
+                      <span className="">Let&rsquo;s Connect</span>
                       
                     </button>
                   </a>

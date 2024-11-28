@@ -112,7 +112,7 @@ export const OmanSection = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["1.6%", "-85%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["1.4%", "-85%"]);
   return (
     <section className="pb-16 lg:py-24">
       <div className="container">
@@ -121,19 +121,19 @@ export const OmanSection = () => {
           <div className=" sticky top-0 mt-10 md:mt-20 flex h-screen items-center overflow-hidden">
           <motion.div style={{ x }} className="flex gap-8 ">
             {OmanC.map((project) => (
-            <Card key={project.kl} className="max-w-3xl sm:w-[80vw] xs:w-[80vw] relative">
+            <Card key={project.kl} className="max-w-3xl sm:w-[80vw] xs:w-[80vw] relative bg-gradient-to-br from-slate-50 to-green-200 backdrop-blur">
                 <div className="flex justify-center items-center">
                 <a href="#">
-                 <Image className="rounded-t-lg object-contain" src={project.image} alt="" layout="intrinsic" />
+                 <Image className="rounded-lg object-contain" src={project.image} alt="" layout="intrinsic" />
                 </a>
                 </div>
                 <div className="p-5">
                  <a href="#">
                 <h5 className="mb-2 md:text-2xl font-serif bg-gradient-to-r from-emerald-300 to-purple-300 bg-clip-text sm:text-lg xs:text-lg ">{project.title}</h5>
                  </a>
-              <p className="mb-3 font-sans text-white sm:text-sm md:text-base xs:text-xs">{project.description}</p>
+              <p className="mb-3 font-sans text-justify  sm:text-sm md:text-base xs:text-xs">{project.description}</p>
               <div className="flex justify-center items-center" >
-              <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-white/5 backdrop-blur rounded-lg hover:bg-blue-800">
+              <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center   bg-white/25 backdrop-blur-3xl border border-white/25 rounded-lg hover:bg-blue-800">
                    Scroll For More
              <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>

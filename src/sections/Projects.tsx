@@ -222,16 +222,15 @@ export const ProjectsSection = () => {
           
           <div
               key={project.kl}
-              className=" bg-white/5 backdrop-blur-3xl rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none sticky -top-10 lg:top-3 xs:-mx-2 ">
+              className=" bg-white/5 backdrop-blur-3xl rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none sticky -top-10 lg:top-3 xs:-mx-2  ">
               <div className="absolute inset-0 -z-10 opacity-5" style={{
                 backgroundImage: `url(${grainImage.src})`,
               }}></div>
-               <div className="absolute inset-0  rounded-lg blur -z-10 opacity-5" style={{ backgroundImage: 'linear-gradient(to right, #ff7e5f, #feb47b)' 
-               }}></div>
+              
               <div className="lg:grid lg:grid-cols-2 lg:gap-16 ">
                 <div className="lg:pb-16">
                   {/* Company Info */}
-                  <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest md:text-sm lg:text-base sm:text-xs text-transparent bg-clip-text xs:text-xxs">
+                  <div className="bg-gradient-to-r from-emerald-500 to-sky-500 inline-flex gap-2 font-bold uppercase tracking-widest md:text-sm lg:text-base sm:text-xs text-transparent bg-clip-text xs:text-xxs">
                     <span>{project.company}</span>
                     <span>&bull;</span>
                     <span>{project.year}</span>
@@ -245,8 +244,8 @@ export const ProjectsSection = () => {
                   {/* Results List */}
                   <ul className="flex flex-col gap-4 mt-4 md:mt-5">
                     {project.results.map((result, resultIndex) => (
-                      <li key={resultIndex} className="flex gap-2 text-sm sm:text-xs xs:text-xs md:text-base text-white/70">
-                        <CheckCircleIcon className="w-5 h-5 text-green-400 md:w-6 md:h-6" />
+                      <li key={resultIndex} className="flex gap-2 text-sm sm:text-xs xs:text-xs md:text-base">
+                        <CheckCircleIcon className="w-5 h-5 text-green-700 md:w-6 md:h-6" />
                         <span>{result.title}</span>
                       </li>
                     ))}
@@ -254,9 +253,9 @@ export const ProjectsSection = () => {
 
                   {/* Button */}
                   <a href="./Service" className="inline-block mt-8">
-                    <button className="bg-white/10 backdrop-blur text-gray-950 h-10 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
-                      <span className="text-white/60">Services</span>
-                      <ArrowUpRightIcon className="w-4 h-4 text-green-300" />
+                    <button className="bg-white/25 backdrop-blur border border-white/25 text-gray-950 h-10 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
+                      <span className="">Services</span>
+                      <ArrowUpRightIcon className="w-4 h-4 text-green-800" />
                     </button>
                   </a>
                 </div>
