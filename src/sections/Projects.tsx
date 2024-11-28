@@ -254,7 +254,7 @@ export const ProjectsSection = () => {
                   {/* Button */}
                   <a href="./Service" className="inline-block mt-8">
                     <button className="bg-white/25 backdrop-blur border border-white/25 text-gray-950 h-10 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
-                      <span className="">Services</span>
+                      <span className="xs:text-sm md:text-md">Services</span>
                       <ArrowUpRightIcon className="w-4 h-4 text-green-800" />
                     </button>
                   </a>
