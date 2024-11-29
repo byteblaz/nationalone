@@ -142,6 +142,18 @@ export const AboutSection = () => {
       <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1828.5572896873718!2d58.58283!3d23.564328!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1730544950299!5m2!1sen!2sin" width="600" height="450" loading="lazy"></iframe>
       </Card>
       </div>
+      <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-3 gap-8">
+        <Card className="flex flex-col col-span-1 md:col-span-5 lg:col-span-3 backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-20 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_37px_6px_rgba(181,163,245,0.3)_inset]">
+        <CardHeader title="Reach Out To Us" description="We’re here to assist you! Feel free to visit us at our address or give us a call. We’re happy to help with any questions or concerns." className="px-6 py-6 "/>
+         <div className="flex flex-col px-8 md:px-12 md:pb-10 xs:pb-8">
+          <h1 className="font-serif md:text-xl xs:text-lg"> 🏢 Address </h1> 
+          <p className="py-1 xs:text-sm md:text-base"> National Gulf Business Management LLC, PO Box 1610 PC 114, Ruwi, Muscat, Sultanate of Oman </p>
+          <h1 className="font-serif md:text-xl xs:text-lg mt-4"> 📞 Phone </h1> 
+          <p className="py-1 xs:text-sm md:text-base"> +968 2475 0891, +968 9802 1900 </p>
+         </div>
+        </Card>
+
+      </div>
     </div>
   </div>
   </div>

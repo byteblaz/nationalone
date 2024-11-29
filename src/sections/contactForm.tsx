@@ -39,7 +39,7 @@ export const ContactForm = () => {
     
     <div className="flex flex-col items-center justify-center min-h-screen p-4 sm:p-8 lg:p-24">
       <SectionHeader eyebrow="Just A Message Away" title="We&rsquo;d Love to Hear from You"description="Have a question, need assistance, or want to discuss our services? Fill out the form below, and our team will get back to you as soon as possible."/>
-      <Card className="w-full max-w-md sm:w-[90vw] md:max-w-2xl lg:max-w-3xl p-6 sm:p-10 lg:p-16 rounded-xl transition-shadow duration-300 bg-white/10 mt-8">
+      <Card className="w-full max-w-md sm:w-[90vw] md:max-w-2xl lg:max-w-3xl p-6 sm:p-10 lg:p-16 rounded-xl transition-shadow duration-300 mt-8">
         <form onSubmit={sendMail} className="space-y-6">
           <div className="flex flex-col items-start gap-4">
             <h1 className="font-serif text-2xl sm:text-3xl lg:text-4xl">Contact Us</h1>

@@ -2,7 +2,7 @@ import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import grainImage from '@/assets/images/grain.jpg';
 export const ContactSection = () => {
   return (
-  <div className="py-16 pt-12 lg:py-24 lg:pt-20">
+  <div className="mb-10">
     <div className="container">
       <div className="backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_31px_6px_rgba(159,244,218,0.3)_inset] bg-[#ffffff] text-gray-900 py-8 px-10 rounded-3xl text-center md:text-left relative overflow-hidden z-0">
         <div className="absolute inset-0 opacity-5 -z-10" style={{
