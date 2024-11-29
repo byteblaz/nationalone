@@ -24,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={twMerge(inter.variable, calistoga.variable,"bg-gradient-to-br from-purple-300/60 via-teal-300/60 to-pink-300/80 text-slate-900 antialiased font-sans")}>{children} 
+        <div></div>
       </body>
     </html>
   );

@@ -1,4 +1,4 @@
-import AboutUs from "@/assets/images/aboutus.png";
+import AboutUs from "@/assets/images/about2.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
@@ -46,14 +46,14 @@ export const AboutMain = () => {
         {portfolioProjects.map((project) => (
           <div
               key={project.kl}
-              className="bg-white/10 backdrop-blur rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none sticky -top-10 lg:top-3 hover:shadow-md hover:shadow-cyan-400 transition-shadow duration-300 ">
+              className="backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-20 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_31px_6px_rgba(159,244,218,0.3)_inset] rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none sticky -top-10 lg:top-3 ">
               <div className="absolute inset-0 -z-10 opacity-5" style={{
                 backgroundImage: `url(${grainImage.src})`,
               }}></div>
               <div className="lg:grid lg:grid-rows-2 lg:gap-0 ">
-                <div className="lg:pb-16">
+                <div className="">
                   {/* Company Info */}
-                  <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest md:text-sm lg:text-base xs:text-xs text-transparent bg-clip-text">
+                  <div className="bg-gradient-to-r from-emerald-600 to-sky-600 inline-flex gap-2 font-bold uppercase tracking-widest md:text-sm lg:text-base xs:text-xs text-transparent bg-clip-text">
                     <span>{project.company}</span>
                   </div>
                   
@@ -61,7 +61,7 @@ export const AboutMain = () => {
                     {project.title}
                   </h3>
           
-                  <hr className="border-t-2 border-white/5 mt-4 md:mt-5" />
+                  <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                   
                   <h3 className="font-sans md:text-lg lg:text-lg xs:text-sm mt-6">
                     {project.about}
@@ -80,9 +80,9 @@ export const AboutMain = () => {
                   {/* Button */}
                   <a href={project.link} className="mt-8 mb-3">
                     <div className="relative flex items-center justify-center mt-8 mb-11">
-                      <button className="bg-white/10 backdrop-blur text-gray-950 h-10 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
-                        <span className="text-white/60">Services</span>
-                        <ArrowUpRightIcon className="w-4 h-4 text-green-300" />
+                      <button className="backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-20 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_31px_6px_rgba(159,244,218,0.3)_inset] text-gray-950 h-10 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
+                        <span className="">Services</span>
+                        <ArrowUpRightIcon className="w-4 h-4 text-green-700" />
                       </button>
                     </div>
                   </a>

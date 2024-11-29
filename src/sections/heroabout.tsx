@@ -55,22 +55,22 @@ export const HeroAboutSection = () => {
     
       </div>
       <div className="max-w-lg mx-auto">
-      <h1 className="font-serif text-3xl md:text-5xl text-center mt-5 tracking-wide bg-gradient-to-r from-yellow-300  via-sky-400 to-yellow-200  bg-clip-text text-transparent">Who We Are</h1>
-      <p className="mt-4 text-center text-white/50 md:text-lg">
+      <h1 className="font-serif text-3xl md:text-5xl text-center mt-5 tracking-wide">Who We Are</h1>
+      <p className="mt-4 text-center md:text-lg">
       Connecting skilled professionals with businesses, providing reliable, efficient recruitment solutions for a perfect fit every time.
       </p>
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
       
       <a href="./About" className="inline-block">
-                    <button className="bg-white/10 backdrop-blur text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
-                      <span className="text-white">About Us</span>
-                      <ArrowDown className="size-4 text-white"/>
+                    <button className="backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_31px_6px_rgba(159,244,218,0.3)_inset] text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
+                      <span className="">About Us</span>
+                      <ArrowDown className="size-4"/>
                     </button>
                   </a>
         <a href="./Service" className="inline-block">
-                    <button className="bg-white/10 backdrop-blur text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
-                      <span className="text-white">Services</span>
+                    <button className="backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-20 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_37px_6px_rgba(181,163,245,0.3)_inset] text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
+                      <span className="">Services</span>
                       
                     </button>
                   </a>
