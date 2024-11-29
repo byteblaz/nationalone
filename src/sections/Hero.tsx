@@ -71,14 +71,14 @@ export const HeroSection = () => {
       
       <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
       <a href="./Service" className="inline-block">
-                    <button className="bg-white/10 backdrop-blur border border-white/25 text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
+                    <button className="backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_31px_6px_rgba(159,244,218,0.3)_inset] text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
                       <span>Services</span>
                       <ArrowDown className="size-4 "/>
                     </button>
                   </a>
         
         <a href="./ContactUs" className="inline-block">
-                    <button className=" bg-white/25 backdrop-blur-3xl border border-white/25 text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
+                    <button className="backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-20 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_37px_6px_rgba(181,163,245,0.3)_inset] bg-[#ffffff] text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
                       <span className="">Let&rsquo;s Connect</span>
                       
                     </button>

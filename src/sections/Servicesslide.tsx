@@ -81,8 +81,7 @@ export const ServiSection = () => {
           {portfolioProjects.map((project) => (
             <div
               key={project.kl}
-              className="bg-white/10 backdrop-blur-xl rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none lg:top-3 hover:shadow-md md:hover:shadow-cyan-400 transition-shadow duration-300"
-            >
+              className="backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-20 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_37px_6px_rgba(181,163,245,0.3)_inset] bg-[#ffffff] rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none lg:top-3">   
               <div
                 className="absolute inset-0 -z-10 opacity-5"
                 style={{
@@ -100,7 +99,7 @@ export const ServiSection = () => {
                     {project.title}
                   </h3>
 
-                  <hr className="border-t-2 border-white/5 mt-2 md:mt-2" />
+                  <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
                   <h3 className="font-sans md:text-lg xs:text-sm mt-4 mb-4 text-left">
                       {project.aboutmain}
                     </h3>
@@ -108,7 +107,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titleone}
                     </h3>
-                    <hr className="border-t-2 border-white/5 mt-4 md:mt-5" />
+                    <hr className="border-t-2 border-slate-700/50 mt-4 md:mt-5" />
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.aboutone}
                     </h3>
@@ -127,7 +126,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titletwo}
                     </h3>
-                    <hr className="border-t-2 border-white/5 mt-2 md:mt-2" />
+                    <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
                     
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.abouttwo}
@@ -147,7 +146,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titlethree}
                     </h3>
-                    <hr className="border-t-2 border-white/5 mt-2 md:mt-2" />
+                    <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
                     
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.aboutthree}
@@ -167,7 +166,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titlefour}
                     </h3>
-                    <hr className="border-t-2 border-white/5 mt-2 md:mt-2" />
+                    <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
                     
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.aboutfour}
@@ -187,7 +186,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titlefive}
                     </h3>
-                    <hr className="border-t-2 border-white/5 mt-2 md:mt-2" />
+                    <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
                     
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.aboutfive}
@@ -207,7 +206,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titlesix}
                     </h3>
-                    <hr className="border-t-2 border-white/5 mt-2 md:mt-2" />
+                    <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
                     
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.aboutsix}
@@ -227,7 +226,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titleseven}
                     </h3>
-                    <hr className="border-t-2 border-white/5 mt-2 md:mt-2" />
+                    <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
                     
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.aboutseven}
@@ -247,7 +246,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titleeight}
                     </h3>
-                    <hr className="border-t-2 border-white/5 mt-2 md:mt-2" />
+                    <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
                     
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.abouteight}
@@ -267,7 +266,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titlenine}
                     </h3>
-                    <hr className="border-t-2 border-white/5 mt-2 md:mt-2" />
+                    <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
                     
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.aboutnine}
@@ -288,9 +287,9 @@ export const ServiSection = () => {
                   {/* Button */}
                   <a href={project.link} className="mt-8 mb-3">
                     <div className="relative flex items-center justify-center mt-8 mb-11">
-                      <button className="bg-white/10 backdrop-blur text-gray-950 h-10 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
-                        <span className="text-white/60">Go Home</span>
-                        <ArrowUpRightIcon className="w-4 h-4 text-green-300" />
+                      <button className="backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-20 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_37px_6px_rgba(181,163,245,0.3)_inset] bg-[#ffffff] text-gray-950 h-10 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
+                        <span className="">Go Home</span>
+                        <ArrowUpRightIcon className="w-4 h-4 text-green-700" />
                       </button>
                     </div>
                   </a>
