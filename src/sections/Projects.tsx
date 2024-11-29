@@ -1,7 +1,7 @@
-import darkSaasLandingPage from "@/assets/images/prothree.png";
-import lightSaasLandingPage from "@/assets/images/visaone.png";
+import darkSaasLandingPage from "@/assets/images/pro1.png";
+import lightSaasLandingPage from "@/assets/images/visa1.png";
 import taxone from "@/assets/images/tax1.png";
-import vatone from "@/assets/images/vattwo.png";
+import vatone from "@/assets/images/tax2.png";
 import isoone from "@/assets/images/isotwo.png";
 import companyone from "@/assets/images/cmpny.png";
 import companytwo from "@/assets/images/cmpnytwo.png";
@@ -222,7 +222,7 @@ export const ProjectsSection = () => {
           
           <div
               key={project.kl}
-              className=" backdrop-blur-2xl backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_37px_6px_rgba(181,163,245,0.3)_inset] bg-[#ffffff] rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none sticky -top-10 lg:top-3 xs:-mx-2  ">
+              className=" backdrop-blur-2xl backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_37px_6px_rgba(181,163,245,0.3)_inset] bg-[#ffffff] rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none sticky -top-10 lg:top-3 xs:-mx-2 mb-2 ">
               <div className="absolute inset-0 -z-10 opacity-5" style={{
                 backgroundImage: `url(${grainImage.src})`,
               }}></div>
