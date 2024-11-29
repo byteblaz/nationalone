@@ -2,7 +2,7 @@ import darkSaasLandingPage from "@/assets/images/pro1.png";
 import lightSaasLandingPage from "@/assets/images/visa1.png";
 import taxone from "@/assets/images/tax1.png";
 import vatone from "@/assets/images/tax2.png";
-import isoone from "@/assets/images/isotwo.png";
+import isoone from "@/assets/images/iso1.png";
 import companyone from "@/assets/images/cmpny.png";
 import companytwo from "@/assets/images/cmpnytwo.png";
 import companythree from "@/assets/images/cmpnythree.png";
@@ -10,10 +10,10 @@ import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import grainImage from '@/assets/images/grain.jpg';
-import marketing from '@/assets/images/marketing.png';
-import intellectual from '@/assets/images/intellectual.png';
-import hiring from '@/assets/images/hiring.png';
-import outsourcing from '@/assets/images/outsourcingone.png';
+import marketing from '@/assets/images/marketing1.png';
+import intellectual from '@/assets/images/intellectual1.png';
+import hiring from '@/assets/images/hiring1.png';
+import outsourcing from '@/assets/images/outsourcing1.png';
 import { SectionHeader } from "@/components/SectionHeader";
 const portfolioProjects = [{
   company: "National Gulf Consultants",
@@ -167,12 +167,12 @@ const portfolioProjects = [{
     title: "ISO Certification Consulting",
     kl:"five",
     results: [
-      { title: "ISO 9001:2015 Quality Management System" },
-      { title: "ISO 22000:2018 Food Safety Management System" },
-      { title: "ISO 14001:2015 Environmental Management System" },
-      { title: "ISO 27001:2013 Information Security Management System" },
-      { title: "ISO 20000-1:2011 Information Technology Service Management System" },
-      { title: "ISO 45001:2018 Occupational Health And Safety Management System" },
+      { title: "ISO 9001:2015 Quality Management" },
+      { title: "ISO 22000:2018 Food Safety Management" },
+      { title: "ISO 14001:2015 Environmental Management" },
+      { title: "ISO 27001:2013 Information Security Management" },
+      { title: "ISO 20000-1:2011 IT Service Management" },
+      { title: "ISO 45001:2018 Occupational Health And Safety Management" },
     ],
     link: "./Service",
     image: isoone,
@@ -222,7 +222,7 @@ export const ProjectsSection = () => {
           
           <div
               key={project.kl}
-              className=" backdrop-blur-2xl backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_37px_6px_rgba(181,163,245,0.3)_inset] bg-[#ffffff] rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none sticky -top-10 lg:top-3 xs:-mx-2 mb-2 ">
+              className=" backdrop-blur-2xl backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_37px_6px_rgba(181,163,245,0.3)_inset] bg-[#ffffff] rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sm:-mx-2 after:pointer-events-none sticky -top-10 lg:top-3 xs:-mx-2 ">
               <div className="absolute inset-0 -z-10 opacity-5" style={{
                 backgroundImage: `url(${grainImage.src})`,
               }}></div>
