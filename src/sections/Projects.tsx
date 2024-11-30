@@ -230,7 +230,7 @@ export const ProjectsSection = () => {
               <div className="lg:grid lg:grid-cols-2 lg:gap-16 ">
                 <div className="lg:pb-16">
                   {/* Company Info */}
-                  <div className="bg-gradient-to-r from-emerald-500 to-sky-500 inline-flex gap-2 font-bold uppercase tracking-widest md:text-sm lg:text-base sm:text-xs text-transparent bg-clip-text xs:text-xxs">
+                  <div className="bg-gradient-to-r from-emerald-600 to-sky-600 inline-flex gap-2 font-bold uppercase tracking-widest md:text-sm lg:text-base sm:text-xs text-transparent bg-clip-text xs:text-xxs">
                     <span>{project.company}</span>
                     <span>&bull;</span>
                     <span>{project.year}</span>
@@ -239,7 +239,7 @@ export const ProjectsSection = () => {
                   <h3 className="font-serif xs:text-lg mt-2 md:mt-5 md:text-2xl">
                     {project.title}
                   </h3>
-                  <hr className="border-t-2 border-white/5 mt-4 md:mt-5" />
+                  <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2 w-[100%]" />
 
                   {/* Results List */}
                   <ul className="flex flex-col gap-4 mt-4 md:mt-5">

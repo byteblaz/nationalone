@@ -46,7 +46,7 @@ export const HeroSection = () => {
       <div className="size-3 rounded-full bg-emerald-300/20"/>
       </HeroOrbit>
     <HeroOrbit size={800} rotation={-72} shouldOrbit orbitDuration="48s" shouldSpin spinDuration="6s">
-      <StarIcon className="size-28 text-emerald-300 opacity-45"/>
+      <StarIcon className="size-14 text-emerald-300"/>
       </HeroOrbit>
       </div>
     <div className="container -mt-12">

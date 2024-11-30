@@ -44,7 +44,7 @@ export const HeroService= () => {
       <div className="size-3 rounded-full bg-emerald-300/20"/>
       </HeroOrbit>
     <HeroOrbit size={800} rotation={-72} shouldOrbit orbitDuration="48s" shouldSpin spinDuration="6s">
-      <StarIcon className="size-28 text-fuchsia-300/60"/>
+      <StarIcon className="size-16 text-fuchsia-300/60"/>
       </HeroOrbit>
       </div>
     <div className="container ">

@@ -99,7 +99,7 @@ export const ServiSection = () => {
                     {project.title}
                   </h3>
 
-                  <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
+                  <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                   <h3 className="font-sans md:text-lg xs:text-sm mt-4 mb-4 text-left">
                       {project.aboutmain}
                     </h3>
@@ -107,7 +107,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titleone}
                     </h3>
-                    <hr className="border-t-2 border-slate-700/50 mt-4 md:mt-5" />
+                    <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.aboutone}
                     </h3>
@@ -126,7 +126,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titletwo}
                     </h3>
-                    <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
+                    <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.abouttwo}
@@ -146,7 +146,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titlethree}
                     </h3>
-                    <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
+                    <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.aboutthree}
@@ -166,7 +166,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titlefour}
                     </h3>
-                    <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
+                    <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.aboutfour}
@@ -186,7 +186,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titlefive}
                     </h3>
-                    <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
+                    <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.aboutfive}
@@ -206,7 +206,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titlesix}
                     </h3>
-                    <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
+                    <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.aboutsix}
@@ -226,7 +226,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titleseven}
                     </h3>
-                    <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
+                    <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.aboutseven}
@@ -246,7 +246,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titleeight}
                     </h3>
-                    <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
+                    <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.abouteight}
@@ -266,7 +266,7 @@ export const ServiSection = () => {
                     <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titlenine}
                     </h3>
-                    <hr className="border-t-2 border-slate-700/50 mt-2 md:mt-2" />
+                    <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
                     <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
                       {project.aboutnine}
