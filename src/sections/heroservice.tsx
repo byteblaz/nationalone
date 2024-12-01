@@ -2,9 +2,9 @@ import memojiImage from "@/assets/images/logong_optimized.png";
 import Image from "next/image";
 import ArrowDown from '@/assets/icons/arrow-down.svg';
 import grainImage from '@/assets/images/grain.jpg';
-import StarIcon from '@/assets/icons/star.svg';
+import StarIcon from '@/assets/icons/starone.svg';
 import { HeroOrbit } from "@/components/HeroOrbit";
-import SparkleIcon from '@/assets/icons/sparkle.svg';
+import SparkleIcon from '@/assets/icons/starone.svg';
 export const HeroService= () => {
   return (
   <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
