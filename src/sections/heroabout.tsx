@@ -56,7 +56,7 @@ export const HeroAboutSection = () => {
       </div>
       <div className="max-w-lg mx-auto">
       <h1 className="font-serif text-3xl md:text-5xl text-center mt-5 tracking-wide">Who We Are</h1>
-      <p className="mt-4 text-center md:text-lg">
+      <p className="mt-4 text-center md:text-lg  xs:text-sm">
       Connecting skilled professionals with businesses, providing reliable, efficient recruitment solutions for a perfect fit every time.
       </p>
       </div>

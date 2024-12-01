@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import {Inter,Calistoga,Merriweather, Merriweather_Sans,Lora} from 'next/font/google';
+import {Inter,Calistoga,Merriweather,Roboto, Merriweather_Sans,Lora} from 'next/font/google';
 /*import {Inter,Calistoga} from 'next/font/google';*/
 import "./globals.css";
 import { twMerge } from "tailwind-merge";

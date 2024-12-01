@@ -110,7 +110,7 @@ export const ContactForm = () => {
           <h1 className="font-serif md:text-xl xs:text-lg"> 🏢 Address </h1> 
           <p className="py-1 xs:text-sm md:text-base"> National Gulf Business Management LLC, PO Box 1610 PC 114, Ruwi, Muscat, Sultanate of Oman </p>
           <h1 className="font-serif md:text-xl xs:text-lg mt-4"> 📞 Phone </h1> 
-          <p className="py-1 xs:text-sm md:text-base"> +968 2475 0891, +968 9802 1900 </p>
+          <p className="py-1 xs:text-sm md:text-base"> +968 2475 0891, +968 9802 1900, +968 9745 0666 </p>
          </div>
         </Card>
 

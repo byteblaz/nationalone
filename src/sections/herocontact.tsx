@@ -56,7 +56,7 @@ export const HeroContact= () => {
       </div>
       <div className="max-w-lg mx-auto">
       <h1 className="font-serif text-3xl md:text-5xl text-center mt-5 tracking-wide">Let&rsquo;s Connect and Collaborate</h1>
-      <p className="mt-4 text-center md:text-lg">
+      <p className="mt-4 text-center md:text-lg  xs:text-sm">
       Get in touch with us to discuss your needs and explore how our recruitment expertise can make a difference for you. We’re here to answer your questions and provide the support you need.</p>
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">

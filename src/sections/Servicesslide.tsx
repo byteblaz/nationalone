@@ -1,23 +1,21 @@
 "use client";
-import AboutUs from "@/assets/images/aboutus.png";
+import darkSaasLandingPage from "@/assets/images/pro1.png";
+import lightSaasLandingPage from "@/assets/images/visa1.png";
+import taxone from "@/assets/images/tax1.png";
+import vatone from "@/assets/images/tax2.png";
+import isoone from "@/assets/images/iso1.png";
+import companyone from "@/assets/images/cmpny.png";
+import companytwo from "@/assets/images/cmpnytwo.png";
+import companythree from "@/assets/images/cmpnythree.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import grainImage from '@/assets/images/grain.jpg';
+import marketing from '@/assets/images/marketing1.png';
+import intellectual from '@/assets/images/intellectual1.png';
+import hiring from '@/assets/images/hiring1.png';
+import outsourcing from '@/assets/images/outsourcing1.png';
 import { SectionHeader } from "@/components/SectionHeader";
-import darkSaasLandingPage from "@/assets/images/prothree.png";
-import lightSaasLandingPage from "@/assets/images/visaone.png";
-import taxone from "@/assets/images/taxone.png";
-import vatone from "@/assets/images/vattwo.png";
-import isoone from "@/assets/images/isotwo.png";
-import companyone from "@/assets/images/companyone.png";
-import companytwo from "@/assets/images/companytwo.png";
-import companythree from "@/assets/images/companyfive.png";
-import marketing from '@/assets/images/marketing.png';
-import intellectual from '@/assets/images/intellectual.png';
-import hiring from '@/assets/images/hiring.png';
-import outsourcing from '@/assets/images/outsourcing.png';
-import { Card } from "@/components/card";
 const portfolioProjects = [
   {
     company: "National Gulf Consultants",
@@ -45,7 +43,6 @@ const portfolioProjects = [
     aboutnine:"Workforce is composed of equally talented pool of professionals and workers from diverse backgrounds and experience. National Gulf executes the practice of engaging external professionals and workers to handle specific task and functions for the smooth work execution. Outsourcing Workforce and Services allow companies to focus on their core competencies by delegating non-core activities to external partners. It can be full time/temporary/project based/region based, etc.",
     
     link: "./",
-    image: AboutUs,
     imageone:companythree,
     imagetwo:taxone,
     imagethree:lightSaasLandingPage,
