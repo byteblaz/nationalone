@@ -45,7 +45,7 @@ export const ContactForm = () => {
           <div className="flex flex-col items-start gap-4">
             <h1 className="font-serif text-2xl sm:text-3xl lg:text-4xl">Contact Us</h1>
           </div>
-          <hr className="border-t-2 border-gray-200 mt-2" />
+          <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2 w-[100%]" />
           
           <div className="relative flex flex-col space-y-2">
             <label htmlFor="title" className="xs:text-md md:text-lg font-medium">
@@ -108,9 +108,11 @@ export const ContactForm = () => {
         <CardHeader title="Reach Out To Us" description="We’re here to assist you! Feel free to visit us at our address or give us a call. We’re happy to help with any questions or concerns." className="px-6 py-6 "/>
          <div className="flex flex-col px-8 md:px-12 md:pb-10 xs:pb-8">
           <h1 className="font-serif md:text-xl xs:text-lg"> 🏢 Address </h1> 
-          <p className="py-1 xs:text-sm md:text-base"> National Gulf Business Management LLC, PO Box 1610 PC 114, Ruwi, Muscat, Sultanate of Oman </p>
+          <p className="py-1 xs:text-xs md:text-base"> National Gulf Business Management LLC
+             <br></br>PO Box 1610 PC 114 
+             <br></br> Ruwi, Muscat, Sultanate of Oman </p>
           <h1 className="font-serif md:text-xl xs:text-lg mt-4"> 📞 Phone </h1> 
-          <p className="py-1 xs:text-sm md:text-base"> +968 2475 0891, +968 9802 1900, +968 9745 0666 </p>
+          <p className="py-1 xs:text-xs md:text-base"> +968 2475 0891, +968 9802 1900, +968 9745 0666 </p>
          </div>
         </Card>
 

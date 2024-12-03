@@ -63,13 +63,13 @@ export const AboutMain = () => {
           
                   <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                   
-                  <h3 className="font-sans md:text-lg lg:text-lg xs:text-sm mt-6">
+                  <h3 className="font-sans text-justify md:text-lg lg:text-lg xs:text-sm mt-6">
                     {project.about}
                   </h3>
-                  <h3 className="font-sans md:text-lg lg:text-lg xs:text-sm mt-2">
+                  <h3 className="font-sans text-justify md:text-lg lg:text-lg xs:text-sm mt-2">
                     {project.abouttwo}
                   </h3>
-                  <h3 className="font-sans md:text-lg lg:text-lg xs:text-sm mt-2">
+                  <h3 className="font-sans text-justify md:text-lg lg:text-lg xs:text-sm mt-2">
                     {project.aboutthree}
                   </h3>
                   
