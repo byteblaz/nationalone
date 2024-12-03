@@ -29,7 +29,7 @@ export async function POST(request: Request) {
         // Mail options configuration
         const mailOption = {
             from: 'vinryde44@zohomail.in',  // Must match the `auth.user` email
-            to: 'vinryde33@gmail.com',       // Recipient email
+            to: 'nationalgulfoman@gmail.com',       // Recipient email
             subject: "Send Email Tutorial",
             html: `
                 <h3>Hello, National Gulf!</h3>
