@@ -1,9 +1,5 @@
 'use client';
-import memojiAvatar1 from "@/assets/images/memoji-avatar-1.png";
-import memojiAvatar2 from "@/assets/images/memoji-avatar-2.png";
-import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
-import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
-import memojiAvatar5 from "@/assets/images/memoji-avatar-5.png";
+
 import { SectionHeader } from "@/components/SectionHeader";
 import Image from "next/image";
 import grainImage from '@/assets/images/grain.jpg';
@@ -18,31 +14,31 @@ const testimonials = [
     name: "Hiring",
     position: "We offer effective solutions for all your recruitment needs",
     text: "We are committed to offering tailored, efficient, and effective solutions for all your manpower recruitment needs, ensuring that we support your organization with the highest level of professionalism.",
-    avatar: memojiAvatar1,
+    
   },
   {
     name: "Outsourcing",
     position: "Man power supply for many leading corporate groups in the Sultanate of Oman",
     text: "We provide highly skilled manpower solutions tailored to meet the needs of various leading corporate groups within the Sultanate of Oman, ensuring quality and efficiency in every project.",
-    avatar: memojiAvatar2,
+    
   },
   {
     name: "Management Consulting",
     position: "Consultant experts to deliver custom solutions and strategies",
     text: "Our management specialists are committed to providing tailored solutions and innovative strategies that address the specific needs of your organization, fostering efficient and successful outcomes.",
-    avatar: memojiAvatar3,
+    
   },
   {
     name: "PRO Services",
     position: "Your one stop destination for all ministry related work ",
     text: "Streamline your ministry tasks in Oman by utilizing our professional PRO services. We are committed to providing efficient and reliable support to ensure a seamless experience for all your needs.",
-    avatar: memojiAvatar4,
+    
   },
   {
     name: "Support 24/7",
     position: "24/7 customer support team in Oman ready to help!",
     text: "Our dedicated team in Oman is committed to providing exceptional customer support around the clock. We ensure that all inquiries and concerns are addressed promptly and professionally, 24/7.",
-    avatar: memojiAvatar5,
+    
   },
 ];
 

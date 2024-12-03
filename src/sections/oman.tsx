@@ -133,7 +133,7 @@ export const OmanSection = () => {
                  <a href="#">
                 <h5 className="mb-2 md:text-2xl font-serif bg-gradient-to-r from-emerald-300 to-purple-300 bg-clip-text sm:text-lg xs:text-lg ">{project.title}</h5>
                  </a>
-              <p className="mb-3 font-sans text-justify  sm:text-sm md:text-base xs:text-xs">{project.description}</p>
+              <p className="mb-3 font-sans sm:text-sm md:text-base xs:text-xs">{project.description}</p>
               <div className="flex justify-center items-center" >
               <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center   bg-white/25 backdrop-blur-3xl border border-white/25 rounded-lg hover:bg-blue-800">
                    Scroll For More
