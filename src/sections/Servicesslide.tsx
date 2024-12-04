@@ -92,20 +92,20 @@ export const ServiSection = () => {
                     <span>{project.company}</span>
                   </div>
 
-                  <h3 className="font-serif text-2xl mt-2 md:mt-5 md:text-4xl text-left">
+                  <h3 className="font-serif xs:text-xl sm:text-2xl mt-2 md:mt-5 md:text-4xl text-left">
                     {project.title}
                   </h3>
 
                   <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
-                  <h3 className="font-sans md:text-lg xs:text-sm mt-4 mb-4 text-left">
+                  <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 mb-4 text-left">
                       {project.aboutmain}
                     </h3>
                   <div className="relative flex flex-col">
-                    <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
+                    <h3 className="font-serif xs:text-xl sm:text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titleone}
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
-                    <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
+                    <h3 className="font-sans md:text-lg xs:text-xs sm:text-sm mt-4 text-left">
                       {project.aboutone}
                     </h3>
 
@@ -120,12 +120,12 @@ export const ServiSection = () => {
                   </div>
                  
                   <div className="relative flex flex-col">
-                    <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
+                    <h3 className="font-serif xs:text-xl sm:text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titletwo}
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
-                    <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
+                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-left">
                       {project.abouttwo}
                     </h3>
 
@@ -140,12 +140,12 @@ export const ServiSection = () => {
                   </div>
                   
                   <div className="relative flex flex-col">
-                    <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
+                    <h3 className="font-serif xs:text-xl sm:text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titlethree}
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
-                    <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
+                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-left">
                       {project.aboutthree}
                     </h3>
 
@@ -160,12 +160,12 @@ export const ServiSection = () => {
                   </div>
 
                   <div className="relative flex flex-col">
-                    <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
+                    <h3 className="font-serif xs:text-xl sm:text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titlefour}
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
-                    <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
+                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-left">
                       {project.aboutfour}
                     </h3>
 
@@ -180,12 +180,12 @@ export const ServiSection = () => {
                   </div>
 
                   <div className="relative flex flex-col">
-                    <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
+                    <h3 className="font-serif xs:text-xl sm:text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titlefive}
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
-                    <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
+                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-left">
                       {project.aboutfive}
                     </h3>
 
@@ -200,12 +200,12 @@ export const ServiSection = () => {
                   </div>
 
                   <div className="relative flex flex-col">
-                    <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
+                    <h3 className="font-serif xs:text-xl sm:text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titlesix}
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
-                    <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
+                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-left">
                       {project.aboutsix}
                     </h3>
 
@@ -220,12 +220,12 @@ export const ServiSection = () => {
                   </div>
 
                   <div className="relative flex flex-col">
-                    <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
+                    <h3 className="font-serif xs:text-xl sm:text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titleseven}
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
-                    <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
+                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-left">
                       {project.aboutseven}
                     </h3>
 
@@ -240,12 +240,12 @@ export const ServiSection = () => {
                   </div>
 
                   <div className="relative flex flex-col">
-                    <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
+                    <h3 className="font-serif xs:text-xl sm:text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titleeight}
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
-                    <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
+                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-left">
                       {project.abouteight}
                     </h3>
 
@@ -260,12 +260,12 @@ export const ServiSection = () => {
                   </div>
 
                   <div className="relative flex flex-col">
-                    <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-3xl text-left">
+                    <h3 className="font-serif xs:text-xl sm:text-2xl mt-2 md:mt-2 md:text-3xl text-left">
                       {project.titlenine}
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
-                    <h3 className="font-sans md:text-lg xs:text-sm mt-4 text-left">
+                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-left">
                       {project.aboutnine}
                     </h3>
 
@@ -285,7 +285,7 @@ export const ServiSection = () => {
                   <a href={project.link} className="mt-8 mb-3">
                     <div className="relative flex items-center justify-center mt-8 mb-11">
                       <button className="backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-20 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_37px_6px_rgba(181,163,245,0.3)_inset] bg-[#ffffff] text-gray-950 h-10 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
-                        <span className="">Go Home</span>
+                        <span className="xs:text-xs sm:text-sm md:text-base">Go Home</span>
                         <ArrowUpRightIcon className="w-4 h-4 text-green-700" />
                       </button>
                     </div>

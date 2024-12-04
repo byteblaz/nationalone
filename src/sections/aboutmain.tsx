@@ -57,19 +57,19 @@ export const AboutMain = () => {
                     <span>{project.company}</span>
                   </div>
                   
-                  <h3 className="font-serif text-2xl mt-2 md:mt-5 md:text-4xl">
+                  <h3 className="font-serif xs:text-xl sm:text-2xl mt-2 md:mt-5 md:text-4xl">
                     {project.title}
                   </h3>
           
                   <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                   
-                  <h3 className="font-sans text-justify hyphens-auto  md:text-lg lg:text-lg xs:text-sm mt-6">
+                  <h3 className="font-sans text-justify hyphens-auto  md:text-lg lg:text-lg sm:text-sm xs:text-xs mt-6">
                     {project.about}
                   </h3>
-                  <h3 className="font-sans text-justify hyphens-auto  md:text-lg lg:text-lg xs:text-sm mt-2">
+                  <h3 className="font-sans text-justify hyphens-auto  md:text-lg lg:text-lg sm:text-sm xs:text-xs mt-2">
                     {project.abouttwo}
                   </h3>
-                  <h3 className="font-sans text-justify hyphens-auto md:text-lg lg:text-lg xs:text-sm mt-2">
+                  <h3 className="font-sans text-justify hyphens-auto md:text-lg lg:text-lg sm:text-sm xs:text-xs mt-2">
                     {project.aboutthree}
                   </h3>
                   
@@ -81,7 +81,7 @@ export const AboutMain = () => {
                   <a href={project.link} className="mt-8 mb-3">
                     <div className="relative flex items-center justify-center mt-8 mb-11">
                       <button className="backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-20 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_31px_6px_rgba(159,244,218,0.3)_inset] text-gray-950 h-10 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
-                        <span className="">Services</span>
+                        <span className="xs:text-xs sm:text-sm md:text-base">Services</span>
                         <ArrowUpRightIcon className="w-4 h-4 text-green-700" />
                       </button>
                     </div>

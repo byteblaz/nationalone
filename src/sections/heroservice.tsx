@@ -55,21 +55,21 @@ export const HeroService= () => {
     
       </div>
       <div className="max-w-lg mx-auto">
-      <h1 className="font-serif text-3xl md:text-5xl text-center mt-5 tracking-wide  max-w-xl">Empowering Your Vision</h1>
-      <p className="mt-4 text-center md:text-lg max-w-xl  xs:text-sm">
+      <h1 className="font-serif xs:text-2xl sm:text-3xl md:text-5xl text-center mt-5 tracking-wide  max-w-xl">Empowering Your Vision</h1>
+      <p className="mt-4 text-center md:text-lg max-w-xl  xs:text-xs sm:text-sm">
       At National Gulf Consultants, we connect you with top-tier talent to drive success and foster growth. Our tailored recruitment solutions ensure you find the perfect professionals who align with your vision and objectives.
       </p>
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
       <a href="" className="inline-block">
                     <button className="backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-10 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_31px_6px_rgba(159,244,218,0.3)_inset] text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
-                      <span className="">Services</span>
+                      <span className="xs:text-xs sm:text-sm md:text-base">Services</span>
                       <ArrowDown className="size-4"/>
                     </button>
                   </a>
                   <a href="./About" className="inline-block">
                     <button className="backdrop-blur-[4px] backdrop-saturate-[100%] bg-[#ffffff] bg-opacity-20 border border-opacity-20 border-[#ffffff] shadow-[0px_10px_37px_6px_rgba(181,163,245,0.3)_inset] text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2">
-                      <span className="">About Us</span>
+                      <span className="xs:text-xs sm:text-sm md:text-base">About Us</span>
                     </button>
                   </a>
       </div>
