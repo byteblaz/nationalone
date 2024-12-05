@@ -27,12 +27,12 @@ export const Header = () => {
 
   return (
     <div className="flex justify-center items-center fixed top-3 w-full z-30">
-      <nav className="flex gap-1 p-0.5 border border-white/15 rounded-full bg-white/10 backdrop-blur">
+      <nav className="flex gap-1 p-0.5 border border-white/15 rounded-full bg-white/10 backdrop-blur ">
         {menuItems.map((item) => (
           <a
             key={item.label}
             href={item.href}
-            className={`nav-item px-4 py-2 rounded-full ${
+            className={`nav-item sm:px-4 sm:py-2 xs:px-3 xs:py-2 rounded-full xs:text-sm sm:text-base ${
               activePath === item.href
                 ? "bg-white text-gray-900" // Active item styles
                 : "text-white hover:bg-white/70 hover:text-gray-900" // Default styles
