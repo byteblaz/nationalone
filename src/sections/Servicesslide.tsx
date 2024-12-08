@@ -97,7 +97,7 @@ export const ServiSection = () => {
                   </h3>
 
                   <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
-                  <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 mb-4 text-left">
+                  <h3 className="font-sans text-justify hyphens-auto md:text-lg sm:text-sm xs:text-xs mt-4 mb-4">
                       {project.aboutmain}
                     </h3>
                   <div className="relative flex flex-col">
@@ -105,7 +105,7 @@ export const ServiSection = () => {
                       {project.titleone}
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
-                    <h3 className="font-sans md:text-lg xs:text-xs sm:text-sm mt-4 text-left">
+                    <h3 className="font-sans text-justify hyphens-auto md:text-lg xs:text-xs sm:text-sm mt-4">
                       {project.aboutone}
                     </h3>
 
@@ -125,7 +125,7 @@ export const ServiSection = () => {
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
-                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-left">
+                    <h3 className="font-sans text-justify hyphens-auto  md:text-lg sm:text-sm xs:text-xs mt-4">
                       {project.abouttwo}
                     </h3>
 
@@ -145,7 +145,7 @@ export const ServiSection = () => {
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
-                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-left">
+                    <h3 className="font-sans text-justify hyphens-auto  md:text-lg sm:text-sm xs:text-xs mt-4">
                       {project.aboutthree}
                     </h3>
 
@@ -165,7 +165,7 @@ export const ServiSection = () => {
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
-                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-left">
+                    <h3 className="font-sans text-justify hyphens-auto  md:text-lg sm:text-sm xs:text-xs mt-4">
                       {project.aboutfour}
                     </h3>
 
@@ -185,7 +185,7 @@ export const ServiSection = () => {
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
-                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-left">
+                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-justify hyphens-auto">
                       {project.aboutfive}
                     </h3>
 
@@ -205,7 +205,7 @@ export const ServiSection = () => {
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
-                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-left">
+                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-justify hyphens-auto ">
                       {project.aboutsix}
                     </h3>
 
@@ -225,7 +225,7 @@ export const ServiSection = () => {
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
-                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-left">
+                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-justify hyphens-auto ">
                       {project.aboutseven}
                     </h3>
 
@@ -245,7 +245,7 @@ export const ServiSection = () => {
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
-                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-left">
+                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-justify hyphens-auto ">
                       {project.abouteight}
                     </h3>
 
@@ -265,7 +265,7 @@ export const ServiSection = () => {
                     </h3>
                     <hr className="border-t-2 border-slate-900/65 mt-2 md:mt-2" />
                     
-                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-left">
+                    <h3 className="font-sans md:text-lg sm:text-sm xs:text-xs mt-4 text-justify hyphens-auto ">
                       {project.aboutnine}
                     </h3>
 

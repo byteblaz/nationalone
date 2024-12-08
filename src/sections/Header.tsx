@@ -32,7 +32,7 @@ export const Header = () => {
           <a
             key={item.label}
             href={item.href}
-            className={`nav-item sm:px-4 sm:py-2 xs:px-3 xs:py-2 rounded-full xs:text-sm sm:text-base ${
+            className={`nav-item sm:px-4 sm:py-2 xs:px-3 xs:py-2 rounded-full xs:text-sm sm:text-sm ${
               activePath === item.href
                 ? "bg-white text-gray-900" // Active item styles
                 : "text-white hover:bg-white/70 hover:text-gray-900" // Default styles

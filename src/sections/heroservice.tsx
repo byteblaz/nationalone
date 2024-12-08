@@ -55,8 +55,8 @@ export const HeroService= () => {
     
       </div>
       <div className="max-w-lg mx-auto">
-      <h1 className="font-serif xs:text-2xl sm:text-3xl md:text-5xl text-center mt-5 tracking-wide  max-w-xl">Empowering Your Vision</h1>
-      <p className="mt-4 text-center md:text-lg max-w-xl  xs:text-xs sm:text-sm">
+      <h1 className="font-serif xs:text-2xl sm:text-3xl md:text-5xl text-center mt-5 tracking-wide max-w-xl">Empowering Your Vision</h1>
+      <p className="mt-4 text-center  md:text-lg max-w-3xl  xs:text-xs sm:text-sm">
       At National Gulf Consultants, we connect you with top-tier talent to drive success and foster growth. Our tailored recruitment solutions ensure you find the perfect professionals who align with your vision and objectives.
       </p>
       </div>
