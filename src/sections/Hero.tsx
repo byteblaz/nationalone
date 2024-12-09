@@ -53,12 +53,12 @@ export const HeroSection = () => {
       </div>
     <div className="container -mt-12 p-8">
       <div className="flex flex-col items-center">
-      <Image src ={logoarab}  className="md:w-[40%] md:h-[40%] xs:w-[80%] xs:h-[80%] px-6"  alt="Logo: national gulf consultants"/>
+      <Image src ={logoarab}  className="md:w-[40%] md:h-[40%] xs:w-[90%] xs:h-[90%] px-6"  alt="Logo: national gulf consultants"/>
       <div className="bg-gray-950 border border-gray-800  px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
         <div className="bg-green-500 size-2.5 rounded-full relative">
           <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
         </div>
-        <div className="text-sm font-medium text-white">Delivering Quality Consultations</div>
+        <div className="md:text-sm xs:text-xs font-medium text-white">Delivering Quality Consultations</div>
       </div>
       </div>
       <div className="max-w-lg mx-auto">
