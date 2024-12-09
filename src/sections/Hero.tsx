@@ -1,5 +1,5 @@
 "use client";
-import memojiImage from "@/assets/images/logong_optimized.png";
+import memojiImage from "@/assets/images/logo250.png";
 import Image from "next/image";
 import ArrowDown from '@/assets/icons/arrow-down.svg';
 import StarIconOne from '@/assets/icons/starone.svg';
@@ -7,6 +7,7 @@ import grainImage from '@/assets/images/grain.jpg';
 import StarIconTwo from '@/assets/icons/starjk.svg';
 import { HeroOrbit } from "@/components/HeroOrbit";
 import SparkleIcon from '@/assets/icons/sparkle.svg';
+import logoarab from '@/assets/images/nationallogoarab.png';
 
 export const HeroSection = () => {
   return (
@@ -50,10 +51,10 @@ export const HeroSection = () => {
       <StarIconOne className="size-14 text-emerald-300"/>
       </HeroOrbit>
       </div>
-    <div className="container -mt-12">
+    <div className="container -mt-12 p-8">
       <div className="flex flex-col items-center">
-      <Image src ={memojiImage}  className="size-[300px] -mb-12"  alt="Logo: national gulf consultants"/>
-      <div className="bg-gray-950 border border-gray-800 -mt-16 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg ">
+      <Image src ={logoarab}  className="md:w-[40%] md:h-[40%] xs:w-[80%] xs:h-[80%] px-6"  alt="Logo: national gulf consultants"/>
+      <div className="bg-gray-950 border border-gray-800  px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
         <div className="bg-green-500 size-2.5 rounded-full relative">
           <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
         </div>
@@ -64,7 +65,7 @@ export const HeroSection = () => {
       <h1 className="font-serif xs:text-2xl sm:text-3xl md:text-5xl text-center mt-5 tracking-wide">Where Dreams Meet Expectations</h1>
       <p className="mt-4 text-center md:text-lg xs:text-xs sm:text-sm">
       We elevate your expectations to reality through expert 
-      Consulting services. 
+      consulting services. 
       With a commitment to excellence and quality, 
       we redefine the way you perceive HR solutions.
       </p>
